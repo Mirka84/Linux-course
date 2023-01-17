@@ -1,2 +1,3 @@
 # Linux-course
-Includes different tasks from the course
+
+Hello fellow students!
