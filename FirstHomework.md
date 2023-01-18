@@ -19,5 +19,6 @@ Kun lataus oli valmis, etenin ohjeiden mukaisesti asentamaan Debiania virtuaalik
 
 Oikean virtuaalikoneen tuplaklikkauksen jälkeen näytölle ilmestyi ohjeen mukainen ruutu. Ohjeessa kerrottiin, että defaulttina oleva live-boottaus lähtisi pyörimään automaattisesti iman valintaa, mutta niin se ei itselläni tehnyt. Tässä kohtaa vaadittiin enterin painamista. Boottaus eteni hyvin mutta hitaasti. Näytöllä oli pelkkä musta ruutu, mutta onneksi alakulmassa pyöri koko ajan pieni levykkeen kuva. Tästä pystyi päättelemään, että jotain tapahtuu  koko ajan. Puuttaus alkoi klo 18.19 ja kesti 18.29 asti. Sen jälkeen sininen työpöytä ilmestyi ruudulle. 
 
+## Testaus ja Linuxin asennus
 
-
+Seuraavaksi testain ohjeen mukaan, toimiiko netti. Sovelluksista valitsin Web browserin, kävin googlettamassa itseni, valitsin yhden linkeistä, hyväksyin Googlen evästeet ja sen jälkeen suljin sivun ja nettiselaimen. Hiiri, näppis ja selain toimi. Klo 18.34 aloitin Debianin asennuksen ja klokkasin Install Debian ikonia työpöydällä. Lupasin palata kohtaan, missä mentiin virtuaalikoneen alustamisessa pieleen. Tässä siis palataan. Heti Install Debian ikonin klikkauksen jälkeen sain ruudulle ilmoituksen, että kovalevyllä on liian vähän tilaa ja asennusta asennusta ei voida jatkaa. Asennukseen tarvitaan 11 GiB kovalevylle tilaa. Ei muuta kuin siis uuden virtuaalikoneen pystytyksen kimppuun. Uusi kone sai nimekseen MHDebian 20 GB:n kovalevyllä (kuten ohjeessakin oli). Uuden virtuaalikoneen alustus eteni samalla tavalla kuin ensimmäisen, ehkä vähän nopeammin. 
