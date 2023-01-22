@@ -47,6 +47,8 @@ Kolmantena ohjelmana asensin Cowsay. Ohjelma ei taida tehdä sen kummempaa, kuin
 
 Komennolla cd /home/mirkah päästään käyttäjän mirkah-kansioon. LS komento näyttää, mitä mirkah-kansiossa on. 
 
+![mirka](https://user-images.githubusercontent.com/82024427/213915845-01b22d31-c1c8-4a9c-b0ab-241c32e7e37d.png)
+
 Kansio /etc/ sisältää laitteen asetukset. 
 
 Kansio /media/ sisältää liikuteltavia mediatiedostoja, kuten CD-rom. 
