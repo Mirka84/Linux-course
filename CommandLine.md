@@ -24,3 +24,6 @@ Asensin seuraavat ohjelmat: Googler, Calcurse ja Cowsay. Etsin ohjelmia komennol
 ![image](https://user-images.githubusercontent.com/82024427/213912722-49da35fc-1866-4761-a4d0-878c2e8da97d.png)
 
 Sovelluksella voi googlettaa terminaalissa, jos jostain syystä ei voisi avata Firefoxia GUIlla. Avasin löytyneen linkin klikkaamalla hiiren oikeaa näppäintä ja avaamalla selaimen uudessa ikkunassa. Firefox avautui. 
+
+## Calcurse 
+
