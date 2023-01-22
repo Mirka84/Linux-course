@@ -17,7 +17,7 @@ Asensin lshw ohjelman sudo apt-get -y install lshw -short -sanitize.
 
 ## Ohjelmien asennus 
 
-Asensin seuraavat ohjelmat: Googler, Calcurse ja Cowsay. Etsin ohjelmia komennolla apt-cache search tui/cli, mutta vaihtoehtojahan tuli terminaaliin niin paljon, ettei niistä oikein osannut mitään valita. Samaten nimet eivät suoraan kertoneet, että mistä on kysymys, joten päädyin valittuihin sovelluksiin googlettamalla erilaisia sovelluksia, joita käytetään terminaalissa. 
+Asensin seuraavat ohjelmat: Googler, Calcurse ja Cowsay. Etsin ohjelmia komennolla apt-cache search tui/cli, mutta vaihtoehtojahan tuli terminaaliin niin paljon, ettei niistä oikein osannut mitään valita. Samaten nimet eivät suoraan kertoneet, että mistä on kysymys, joten päädyin valittuihin sovelluksiin googlettamalla erilaisia sovelluksia, joita käytetään terminaalissa. Asensin ohjelmat yksitellen, mutta google kertoi, että komennolla sudo apt-get install program1 program2 program3 voi asentaa useamman ohjelman kerrallaan. 
 
 ## Googler
 
@@ -29,4 +29,11 @@ Sovelluksella voi googlettaa terminaalissa, jos jostain syystä ei voisi avata F
 
 ![image](https://user-images.githubusercontent.com/82024427/213913000-0d3f69ec-4381-4dd2-a985-033e8b3728b4.png)
 
-Calcurse on kalenteriohjelma. Näin lyhyellä käytöllä koin ohjelman hieman hankalaksi. Esimerkiksi kalenteriin tapahtuman lisäys vaati paljon kokeiluja, jotta kalenteriin pääsi jotain kirjoittamaan. Ohjeet eivät mielestäni olleet kovin selkeät ja ajauduinkin kokeiluissani kummallisiin valikkoihin. Käynnistin ja suljin ohjelmaa, kun huomasin ajautuneeni johonkin ihmeelliseen paikkaan, josta en päässyt pakittamaan edelliseen näyttöön. Q-näppäintä tuli siis käytettyä. 
+Calcurse on kalenteriohjelma. Näin lyhyellä käytöllä koin ohjelman hieman hankalaksi. Esimerkiksi kalenteriin tapahtuman lisäys vaati paljon kokeiluja, jotta kalenteriin pääsi jotain kirjoittamaan. Ohjeet eivät mielestäni olleet kovin selkeät ja ajauduinkin kokeiluissani kummallisiin valikkoihin. Käynnistin ja suljin ohjelmaa, kun huomasin ajautuneeni johonkin ihmeelliseen paikkaan, josta en päässyt pakittamaan edelliseen näyttöön. Q-näppäintä tuli siis käytettyä.
+
+## Cowsay
+
+Kolmantena ohjelmana asensin Cowsay. Ohjelma ei taida tehdä sen kummempaa, kuin että tulostaa lehmän kuvan ja sille halutun puhekuplan. Onhan se kivan näköinen. 
+
+![image](https://user-images.githubusercontent.com/82024427/213913113-d5486492-a630-4df9-afe8-f412761b3651.png)
+
