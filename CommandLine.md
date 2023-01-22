@@ -49,11 +49,16 @@ Komennolla cd /home/mirkah päästään käyttäjän mirkah-kansioon. LS komento
 
 ![mirka](https://user-images.githubusercontent.com/82024427/213915845-01b22d31-c1c8-4a9c-b0ab-241c32e7e37d.png)
 
-Kansio /etc/ sisältää laitteen asetukset. 
+Kansio /etc/ sisältää laitteen asetuksiin liittyviä kansioita ja tiedostoja. Etc-kansioon pääsee juurihakemiston kautta. 
+
+![etc_kansio](https://user-images.githubusercontent.com/82024427/213916173-4e3ce233-93ec-4e7b-9625-aa19cbcd9736.png)
 
 Kansio /media/ sisältää liikuteltavia mediatiedostoja, kuten CD-rom. 
 
-Kansio /var/log sisältää lokeihin liittyviä kansioita.
+Kansio /var/log sisältää lokeihin liittyviä kansioita. Var/log kansioon pääsee juurihakemiston kautta. 
+
+![var_log](https://user-images.githubusercontent.com/82024427/213916181-5480a4bb-5873-4f73-b56f-a54b1c1a2705.png)
+
 
 ## Lähteet
 
