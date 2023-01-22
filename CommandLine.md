@@ -59,10 +59,18 @@ Kansio /var/log sisältää lokeihin liittyviä kansioita. Var/log kansioon pä�
 
 ![var_log](https://user-images.githubusercontent.com/82024427/213916181-5480a4bb-5873-4f73-b56f-a54b1c1a2705.png)
 
+## Grep-komento
+
+Grep-komennolla voi filtteröidä tiedostoja ja kansioita tietyn kaavan perusteella. Esimerkiki grep-komennolla voi etsiä tiedostosta rivejä, joissa tietty sana esiintyy. Esim. grep -i "kis" cat.txt. Cat-txt-tiedostosta etsitään sanoja, joissa löytyy kis (eikä ole väliä, onko isolla vai pienellä kirjoitettu). 
+
+![Kis_sanan_nappaus](https://user-images.githubusercontent.com/82024427/213920721-aa7a6644-6472-4304-afb9-4f26c1d4557d.png)
+
 
 ## Lähteet
 
 https://askubuntu.com/questions/516850/is-there-any-way-to-install-multiple-software-at-a-single-command-via-terminal
+
+https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
 https://github.com/agarrharr/awesome-cli-apps
 
