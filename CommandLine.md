@@ -65,6 +65,10 @@ Grep-komennolla voi filtteröidä tiedostoja ja kansioita tietyn kaavan perustee
 
 ![Kis_sanan_nappaus](https://user-images.githubusercontent.com/82024427/213920721-aa7a6644-6472-4304-afb9-4f26c1d4557d.png)
 
+Komennolla grep -l "ki" * etsin hakemistosta tiedostoja, joissa on sanoja, joissa on jossain kohtaa "ki". Hakemisto /Days/Fri/cat sisältää neljä tekstitiedostoa, joissa kahdesta lötyyy tekstistä "ki". Tiedostot listataan terminaaliin. 
+
+![kissa_kirjoituksia](https://user-images.githubusercontent.com/82024427/213921451-bf36f5c7-5195-4b1f-bfa9-6fb5b5f69e20.png)
+
 
 ## Lähteet
 
