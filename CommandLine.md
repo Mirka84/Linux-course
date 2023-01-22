@@ -8,3 +8,10 @@ Linuxin komentokehotteet. Artikkelissa kerrotaan, kuinka tarkistat, missä kansi
 Asensin micro-tekstinkäsittelyohjelman käskyllä sudo apt-get -y install micro. 
 
 Micro tuntui heti selkeältä käyttää. Loin testidokkarin $ micro Test.txt. Micro tuntui helpommalta, kuin Nano tekstinkäsittelyohjelma. Kun tallensi, ruutuun ilmestyi teksti, että tallennettu. Nanossa tämä jäi epäselväksi. Dokkarin siirto työpöydältä uuteen luotuun kansioon oli kätevää. Mv Test.txt TESTING siirtyi TESTING kansioon. 
+
+## Rauta
+
+Asensin lshw ohjelman sudo apt-get -y install lshw -short -sanitize. 
+
+![image](https://user-images.githubusercontent.com/82024427/213912573-168a8248-35bd-4092-8439-2f9507339000.png)
+
