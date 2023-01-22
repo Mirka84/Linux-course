@@ -37,3 +37,23 @@ Kolmantena ohjelmana asensin Cowsay. Ohjelma ei taida tehdä sen kummempaa, kuin
 
 ![image](https://user-images.githubusercontent.com/82024427/213913113-d5486492-a630-4df9-afe8-f412761b3651.png)
 
+## Tärkeät kansiot
+
+/ on juurihakemisto, joka näyttää kaikki koneelle asennetut kansiot. Linuxissa ei ole eri asemia (esim. C, H), vaan kaikki kansiot sijaitsevat juurikansiossa. 
+
+/home/ sisältää käyttäjien omat kansiot. Tässä virtuaalikoneessa on vain yksi käyttäjä, joten kansio sisältää mirkah-kansion. 
+
+Komennolla cd /home/mirkah päästään käyttäjän mirkah-kansioon. LS komento näyttää, mitä mirkah-kansiossa on. 
+
+Kansio /etc/ sisältää laitteen asetukset. 
+
+Kansio /media/ sisältää liikuteltavia mediatiedostoja, kuten CD-rom. 
+
+Kansio /var/log sisältää lokeihin liittyviä kansioita.
+
+## Lähteet
+
+
+
+
+
