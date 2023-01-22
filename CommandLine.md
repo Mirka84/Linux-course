@@ -15,3 +15,12 @@ Asensin lshw ohjelman sudo apt-get -y install lshw -short -sanitize.
 
 ![image](https://user-images.githubusercontent.com/82024427/213912573-168a8248-35bd-4092-8439-2f9507339000.png)
 
+## Ohjelmien asennus 
+
+Asensin seuraavat ohjelmat: Googler, Calcurse ja Cowsay. Etsin ohjelmia komennolla apt-cache search tui/cli, mutta vaihtoehtojahan tuli terminaaliin niin paljon, ettei niistä oikein osannut mitään valita. Samaten nimet eivät suoraan kertoneet, että mistä on kysymys, joten päädyin valittuihin sovelluksiin googlettamalla erilaisia sovelluksia, joita käytetään terminaalissa. 
+
+## Googler
+
+![image](https://user-images.githubusercontent.com/82024427/213912722-49da35fc-1866-4761-a4d0-878c2e8da97d.png)
+
+Sovelluksella voi googlettaa terminaalissa, jos jostain syystä ei voisi avata Firefoxia GUIlla. Avasin löytyneen linkin klikkaamalla hiiren oikeaa näppäintä ja avaamalla selaimen uudessa ikkunassa. Firefox avautui. 
