@@ -27,3 +27,6 @@ Sovelluksella voi googlettaa terminaalissa, jos jostain syystä ei voisi avata F
 
 ## Calcurse 
 
+![image](https://user-images.githubusercontent.com/82024427/213913000-0d3f69ec-4381-4dd2-a985-033e8b3728b4.png)
+
+Calcurse on kalenteriohjelma. Näin lyhyellä käytöllä koin ohjelman hieman hankalaksi. Esimerkiksi kalenteriin tapahtuman lisäys vaati paljon kokeiluja, jotta kalenteriin pääsi jotain kirjoittamaan. Ohjeet eivät mielestäni olleet kovin selkeät ja ajauduinkin kokeiluissani kummallisiin valikkoihin. Käynnistin ja suljin ohjelmaa, kun huomasin ajautuneeni johonkin ihmeelliseen paikkaan, josta en päässyt pakittamaan edelliseen näyttöön. Q-näppäintä tuli siis käytettyä. 
