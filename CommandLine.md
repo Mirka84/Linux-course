@@ -41,6 +41,8 @@ Kolmantena ohjelmana asensin Cowsay. Ohjelma ei taida tehdä sen kummempaa, kuin
 
 / on juurihakemisto, joka näyttää kaikki koneelle asennetut kansiot. Linuxissa ei ole eri asemia (esim. C, H), vaan kaikki kansiot sijaitsevat juurikansiossa. 
 
+![juurihakemisto](https://user-images.githubusercontent.com/82024427/213914700-88da2ea7-59d9-487f-9bd3-dfaaafc5e3cd.png)
+
 /home/ sisältää käyttäjien omat kansiot. Tässä virtuaalikoneessa on vain yksi käyttäjä, joten kansio sisältää mirkah-kansion. 
 
 Komennolla cd /home/mirkah päästään käyttäjän mirkah-kansioon. LS komento näyttää, mitä mirkah-kansiossa on. 
@@ -52,6 +54,14 @@ Kansio /media/ sisältää liikuteltavia mediatiedostoja, kuten CD-rom.
 Kansio /var/log sisältää lokeihin liittyviä kansioita.
 
 ## Lähteet
+
+https://askubuntu.com/questions/516850/is-there-any-way-to-install-multiple-software-at-a-single-command-via-terminal
+
+https://github.com/agarrharr/awesome-cli-apps
+
+https://www.makeuseof.com/fun-linux-command-line-programs/
+
+https://www.wikihow.com/Run-a-Program-from-the-Command-Line-on-Linux
 
 
 
