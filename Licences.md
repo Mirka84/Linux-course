@@ -9,7 +9,8 @@ FSF:n määritelmän mukaan vapaalla sovelluksella täyttyy neljä vapauden edel
 
 Vapaa sovellus ei tarkoita, että se olisi ilmainen. Sitä voi myös käyttää kaupallisessa tarkoituksessa. 
 
-Välimäki luokittelee vapaat lisenssit kahteen kategoriaan, toiminnallisiin ja historiallisiin lisensseihin. Toiminnalliset puolestaan voidaan jakaa kolmeen kategoriaan: 1. lisenssit, joissa on vahvat velvollisuudet
+Välimäki luokittelee vapaat lisenssit kahteen kategoriaan, toiminnallisiin ja historiallisiin lisensseihin. Toiminnalliset puolestaan voidaan jakaa kolmeen kategoriaan: 
+1. lisenssit, joissa on vahvat velvollisuudet
 2. lisenssit, joissa on standardin mukaiset velvollisuudet
 3. sallivat lisenssit
 
@@ -30,14 +31,15 @@ Historiallisesti luokiteltujen lisenssien erot perustuvat lähinnä niiden luett
 + **Lisenssi: GNU General Public License v3.0**
 + **Tieto löytyi https://github.com/jarun/googler/blob/main/LICENSE**
 + **Kyseessä on vapaa lisenssi**
-+ **Ohjelamaa saa käyttää kaupallisessa ja yksityisessä käytössä, koodia saa muokata ja levittää 
++ **Ohjelamaa saa käyttää kaupallisessa ja yksityisessä käytössä, koodia saa muokata ja levittää**
 
 ### Calendar
 
 ### Cowsay
 
 + **Lisenssi: MIT license**
-+ **Tieto löytyi: https://github.com/piuccio/cowsay/blob/master/LICENSE**
++ **Tieto löytyi:https://github.com/johnnyt/cowsay/blob/master/LICENSE.txt**
++ **Ohjelmaa saa käyttää kaupallisessa ja yksityisessä käytössä, koodia saa muokata ja levittää**
 
 ## Lähteet 
 
