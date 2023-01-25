@@ -2,10 +2,12 @@
 
 Vapaalla sovelluksella täyttyy neljä vapauden edellytystä: 
 
-+**vapaus ajaa ohjelmaa kaikissa tarkoituksissa**
-+**vapaus tutkia ja muuttaa ohjelmaa ja ohjelman lähdekoodia omia tarkoituksia varten** 
-+**vapaus jakaa alkuperäistä koodia eteenpäin**
-+**vapaus jakaa alkuperäisestä muuttamaasi koodia eteenpäin**
++ **vapaus ajaa ohjelmaa kaikissa tarkoituksissa**
++ **vapaus tutkia ja muuttaa ohjelmaa ja ohjelman lähdekoodia omia tarkoituksia varten** 
++ **vapaus jakaa alkuperäistä koodia eteenpäin**
++ **vapaus jakaa alkuperäisestä muuttamaasi koodia eteenpäin**
+
+
 
 
 ## Lähteet 
