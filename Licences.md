@@ -55,7 +55,14 @@ Historiallisesti luokiteltujen lisenssien erot perustuvat lähinnä niiden luett
 
 Putki: 
 
+Näytetään rivit, joilla on jompi kumpi etsitty sana. 
+
 ![putki](https://user-images.githubusercontent.com/82024427/214650699-76d8936b-9c56-402a-971b-9769f9439cfa.png)
+
+Annetaan kaksi komentoa, putkea edeltävän käskyn outputti on putken jälkeinen inputti. 
+
+![putki_kaksi_komentoa](https://user-images.githubusercontent.com/82024427/214656116-2a5b4ab0-45c9-41c2-8b39-d08fb2b3daa8.png)
+
 
 ## Lähteet 
 
