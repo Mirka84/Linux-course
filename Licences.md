@@ -62,3 +62,7 @@ Putki:
 https://www.gnu.org/philosophy/free-sw.html
 
 https://github.com/jarun/googler/blob/main/LICENSE
+
+https://www.howtogeek.com/661101/how-to-use-regular-expressions-regexes-on-linux/
+
+https://linuxize.com/post/how-to-use-grep-command-to-search-files-in-linux/#:~:text=Grep%20Command%20in%20Linux%20%28Find%20Text%20in%20Files%29,8%20Search%20for%20Full%20Words%20...%20Lis%C3%A4%C3%A4%20kohteita
