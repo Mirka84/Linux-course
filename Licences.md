@@ -47,6 +47,16 @@ Historiallisesti luokiteltujen lisenssien erot perustuvat lähinnä niiden luett
 + **Kyseessä on vapaa lisenssi**
 + **Ohjelmaa saa käyttää kaupallisessa ja yksityisessä käytössä, koodia saa muokata ja levittää**
 
+## Grep
+
+. 
+
+![grep_kissa](https://user-images.githubusercontent.com/82024427/214650183-f9546c5d-38b1-407b-9bb9-dfb1da3800e4.png)
+
+Putki: 
+
+![putki](https://user-images.githubusercontent.com/82024427/214650699-76d8936b-9c56-402a-971b-9769f9439cfa.png)
+
 ## Lähteet 
 
 https://www.gnu.org/philosophy/free-sw.html
