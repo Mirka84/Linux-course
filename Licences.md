@@ -33,12 +33,18 @@ Historiallisesti luokiteltujen lisenssien erot perustuvat lähinnä niiden luett
 + **Kyseessä on vapaa lisenssi**
 + **Ohjelamaa saa käyttää kaupallisessa ja yksityisessä käytössä, koodia saa muokata ja levittää**
 
-### Calendar
+### Calcurse
+
++ **Lisenssi: BSD-style license**
++ **Tieto löytyi: https://calcurse.org/files/changes.html**
++ **Kyseessä on vapaa lisenssi, BSD-style lisenssi kuuluu salliviven lisenssien perheeseen**
++ **Ohjelmaa saa muokata ja levittää ja muokatun koodin lisenssiehtoja voi muuttaa**
 
 ### Cowsay
 
 + **Lisenssi: MIT license**
 + **Tieto löytyi:https://github.com/johnnyt/cowsay/blob/master/LICENSE.txt**
++ **Kyseessä on vapaa lisenssi**
 + **Ohjelmaa saa käyttää kaupallisessa ja yksityisessä käytössä, koodia saa muokata ja levittää**
 
 ## Lähteet 
