@@ -49,7 +49,7 @@ Historiallisesti luokiteltujen lisenssien erot perustuvat lähinnä niiden luett
 
 ## Grep
 
-. 
+![kissa_grep](https://user-images.githubusercontent.com/82024427/214653096-ec176d7f-acdd-42a6-ba6f-37981c5d16c0.png)
 
 ![grep_kissa](https://user-images.githubusercontent.com/82024427/214650183-f9546c5d-38b1-407b-9bb9-dfb1da3800e4.png)
 
