@@ -6,7 +6,7 @@ Syslog kerää logeja koko järjestelmän käytöstä.
 
 ![syslog_](https://user-images.githubusercontent.com/82024427/215330998-fdd1c20a-79b3-4860-bc2d-493ae4acdef9.png)
 
-+ Jan 29 15:42:42 MHDebian kernel: [ 5292.980707] [UFW BLOCK] IN=enp0s3 OUT= MAC=08:00:27:e1:04:3b:52:54:00:12:35:02:08:00 SRC=178.250.2.146 DST=10.0.2.15 LEN=40 TOS=0x00 PREC=0x00 TTL=255 ID=19199 PROTO=TCP SPT=443 DPT=53712 WINDOW=0 RES=0x00 ACK RST URGP=0. **Rivi kertoo kernelistä (ytimestä) tietoa. 
++ Jan 29 15:42:42 MHDebian kernel: [ 5292.980707] [UFW BLOCK] IN=enp0s3 OUT= MAC=08:00:27:e1:04:3b:52:54:00:12:35:02:08:00 SRC=178.250.2.146 DST=10.0.2.15 LEN=40 TOS=0x00 PREC=0x00 TTL=255 ID=19199 PROTO=TCP SPT=443 DPT=53712 WINDOW=0 RES=0x00 ACK RST URGP=0. **Rivi kertoo kernelistä (ytimestä) tietoa.** 
 + Jan 29 15:42:58 MHDebian rtkit-daemon[1084]: Supervising 8 threads of 4 processes of 1 users. **Deamon seuraa käyttäjätietoja, salasanoja ja käyttäjätunnuksia.**
 
 
@@ -16,9 +16,9 @@ Auth.log sisältää tiedon onnistuneista ja epäonnistuneista sisäänkirjautum
 
 ![auth_log](https://user-images.githubusercontent.com/82024427/215325975-5c3fe3c6-6b43-4e2c-a108-be155632aafb.png)
 
-+ Jan 29 14:16:58 MHDebian sudo:   mirkah : TTY=pts/0 ; PWD=/home/mirkah ; USER=root ; COMMAND=/usr/bin/tail -F var/log/auth.log. Tammikuun 29 päivä klo 14.16.58 käyttäjä mirkah on antanut sudo-komennon. Käskynantohetkellä ollaan oltu /home/mirkah -hakemistossa. 
-+ Jan 29 14:16:58 MHDebian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000). UID 1000 on järjestelmän luoma tunnus ensimmäiselle käyttäjälle. UID=0 on juurikäyttäjä. 
-+ Jan 29 14:17:01 MHDebian CRON[1555]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0). Sessio avautui, mutta samalla hetkellä myös sulkeutui.
++ Jan 29 14:16:58 MHDebian sudo:   mirkah : TTY=pts/0 ; PWD=/home/mirkah ; USER=root ; COMMAND=/usr/bin/tail -F var/log/auth.log. **Tammikuun 29 päivä klo 14.16.58 käyttäjä mirkah on antanut sudo-komennon. Käskynantohetkellä ollaan oltu /home/mirkah -hakemistossa.** 
++ Jan 29 14:16:58 MHDebian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000). **UID 1000 on järjestelmän luoma tunnus ensimmäiselle käyttäjälle. UID=0 on juurikäyttäjä.** 
++ Jan 29 14:17:01 MHDebian CRON[1555]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0). **Sessio avautui, mutta samalla hetkellä myös sulkeutui.**
 + Jan 29 14:17:01 MHDebian CRON[1555]: pam_unix(cron:session): session closed for user root.  
 
 ## Jälki lokiin auth.log, väärä salasana sudo-komentoon sekä väärillä tiedoilla kirjautuminen
