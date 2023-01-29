@@ -19,7 +19,17 @@ Auth.log sisältää tiedon onnistuneista ja epäonnistuneista sisäänkirjautum
 + Jan 29 14:16:58 MHDebian sudo:   mirkah : TTY=pts/0 ; PWD=/home/mirkah ; USER=root ; COMMAND=/usr/bin/tail -F var/log/auth.log. **Tammikuun 29 päivä klo 14.16.58 käyttäjä mirkah on antanut sudo-komennon. Käskynantohetkellä ollaan oltu /home/mirkah -hakemistossa.** 
 + Jan 29 14:16:58 MHDebian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000). **UID 1000 on järjestelmän luoma tunnus ensimmäiselle käyttäjälle. UID=0 on juurikäyttäjä.** 
 + Jan 29 14:17:01 MHDebian CRON[1555]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0). **Sessio avautui, mutta samalla hetkellä myös sulkeutui.**
-+ Jan 29 14:17:01 MHDebian CRON[1555]: pam_unix(cron:session): session closed for user root.  
++ Jan 29 14:17:01 MHDebian CRON[1555]: pam_unix(cron:session): session closed for user root. 
+
+## /var/log/apache2/access.log
+
+Apache access.log kerää tietoa kaikista Apache-serverin tekemistä pyynnöistä. 
+
+![apache2_log](https://user-images.githubusercontent.com/82024427/215332230-879e494d-5324-4959-991b-5ddd6e11daf2.png)
+
++ 127.0.0.1 - - [28/Jan/2023:21:10:55 +0200] "GET / HTTP/1.1" 200 3380 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0 **Tammikuun 28. 2023 klo 21.10.55 on käynnistetty Firefox selain.**
++ 127.0.0.1 - - [29/Jan/2023:14:29:30 +0200] "GET / HTTP/1.1" 200 3380 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" **Tammikuun 29. 2023 klo 14.29.30 on taas käynnistetty Firefox.**
+
 
 ## Jälki lokiin auth.log, väärä salasana sudo-komentoon sekä väärillä tiedoilla kirjautuminen
 
