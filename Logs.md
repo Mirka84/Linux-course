@@ -30,6 +30,15 @@ Apache access.log kerää tietoa kaikista Apache-serverin tekemistä pyynnöist�
 + 127.0.0.1 - - [28/Jan/2023:21:10:55 +0200] "GET / HTTP/1.1" 200 3380 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0 **Tammikuun 28. 2023 klo 21.10.55 on käynnistetty Firefox selain.**
 + 127.0.0.1 - - [29/Jan/2023:14:29:30 +0200] "GET / HTTP/1.1" 200 3380 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" **Tammikuun 29. 2023 klo 14.29.30 on taas käynnistetty Firefox.**
 
+## /var/log/apache2/error.log
+
+Apache2 error.logiin tallentuu tiedot virheiimoituksista ja kummallisuuksista. Lokitiedot ovat tallentuneet siitä lähtien, kun Apache2 on asennettu laitteelle. 
+
+![apache2_error](https://user-images.githubusercontent.com/82024427/215332927-dd664442-3b3f-46a4-b485-cf445f13aeda.png)
+
++ [Sun Jan 29 14:14:38.063468 2023] [mpm_event:notice] [pid 669:tid 140366684515648] AH00489: Apache/2.4.54 (Debian) configured -- resuming normal operations **Sunnuntaina 29.1.2023 klo 14.14.38 ei virheitä, toimii normaalisti.**
++ [Sun Jan 29 14:14:38.064097 2023] [core:notice] [pid 669:tid 140366684515648] AH00094: Command line: '/usr/sbin/apache2'
+
 
 ## Jälki lokiin auth.log, väärä salasana sudo-komentoon sekä väärillä tiedoilla kirjautuminen
 
@@ -48,6 +57,8 @@ Apache access.log kerää tietoa kaikista Apache-serverin tekemistä pyynnöist�
 ### Lähteet
 
 https://www.linuxquestions.org/questions/linux-general-1/what-is-the-user-1000-a-4175510196/
+
+https://stackify.com/apache-error-log-explained/
 
 
 
