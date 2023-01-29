@@ -2,7 +2,7 @@
 
 ### /var/log/syslog
 
-Syslog kerää logeja koko järjestelmän käytöstä. 
+Syslog näyttää yleiset viestit ja tietoa koko järjestelmästä. Kaikki mitä tehdään järjestelmässä, tallentuu syslogiin.
 
 ![syslog_](https://user-images.githubusercontent.com/82024427/215330998-fdd1c20a-79b3-4860-bc2d-493ae4acdef9.png)
 
@@ -62,6 +62,8 @@ Apache2 error.logiin tallentuu tiedot virheiimoituksista ja kummallisuuksista. L
 https://www.linuxquestions.org/questions/linux-general-1/what-is-the-user-1000-a-4175510196/
 
 https://stackify.com/apache-error-log-explained/
+
+https://www.plesk.com/blog/featured/linux-logs-explained/#:~:text=Linux%20logs%20give%20you%20a%20visual%20history%20of,where%20best%20to%20put%20the%20log%20of%20events.
 
 
 
