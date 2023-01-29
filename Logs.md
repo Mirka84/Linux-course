@@ -2,6 +2,12 @@
 
 ## /var/log/syslog
 
+Syslog kerää logeja koko järjestelmän käytöstä. 
+
+![syslog_](https://user-images.githubusercontent.com/82024427/215330998-fdd1c20a-79b3-4860-bc2d-493ae4acdef9.png)
+
++ Jan 29 15:42:42 MHDebian kernel: [ 5292.980707] [UFW BLOCK] IN=enp0s3 OUT= MAC=08:00:27:e1:04:3b:52:54:00:12:35:02:08:00 SRC=178.250.2.146 DST=10.0.2.15 LEN=40 TOS=0x00 PREC=0x00 TTL=255 ID=19199 PROTO=TCP SPT=443 DPT=53712 WINDOW=0 RES=0x00 ACK RST URGP=0. **Rivi kertoo kernelistä (ytimestä) tietoa. 
++ Jan 29 15:42:58 MHDebian rtkit-daemon[1084]: Supervising 8 threads of 4 processes of 1 users. **Deamon seuraa käyttäjätietoja, salasanoja ja käyttäjätunnuksia.**
 
 
 ## /var/log/auth.log
@@ -15,11 +21,18 @@ Auth.log sisältää tiedon onnistuneista ja epäonnistuneista sisäänkirjautum
 + Jan 29 14:17:01 MHDebian CRON[1555]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0). Sessio avautui, mutta samalla hetkellä myös sulkeutui.
 + Jan 29 14:17:01 MHDebian CRON[1555]: pam_unix(cron:session): session closed for user root.  
 
-## Jälki lokiin auth.log, epäonnistunut kirjautuminen
+## Jälki lokiin auth.log, väärä salasana sudo-komentoon sekä väärillä tiedoilla kirjautuminen
 
-+ Jan 29 15:08:20 MHDebian sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=mirkah rhost=  user=mirkah. Tammikuun 29. klo 15.08.20 autentikointi on epäonnistunut (syötetty väärä salasana)- 
++ Jan 29 15:08:20 MHDebian sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=mirkah rhost=  user=mirkah. Tammikuun 29. klo 15.08.20 autentikointi on epäonnistunut (syötetty väärä salasana sudo-komennossa). 
 + Jan 29 15:08:31 MHDebian sudo:   mirkah : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -F syslog. Tammikuun 29. klo 15.08.31 annettu sudo-komento, komentohetkellä oltu /var/log-hakemistossa. Käyttäjänä pääkäyttäjä. 
 + Jan 29 15:08:31 MHDebian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000). Tunnisteet kirjoitettu oikein ja sessio avattu. 
+
+
++ **Jan 29 15:21:07 MHDebian lightdm: gkr-pam: stashed password to try later in open session.** Kirjautuessa syötetty väärä salasana. 
++ Jan 29 15:21:07 MHDebian lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm. 
++ Jan 29 15:21:07 MHDebian systemd-logind[479]: Removed session c2.
++ **Jan 29 15:21:08 MHDebian lightdm: pam_unix(lightdm:session): session opened for user mirkah(uid=1000) by (uid=0)** Järjestelmä avattu käyttäjälle mirkah. 
++ Jan 29 15:21:08 MHDebian systemd-logind[479]: New session 8 of user mirkah.
 
 
 ### Lähteet
