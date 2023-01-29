@@ -2,6 +2,8 @@
 
 ## /var/log/syslog
 
+
+
 ## /var/log/auth.log
 
 Auth.log sisältää tiedon onnistuneista ja epäonnistuneista sisäänkirjautumisista ja kirjautumisyrityksistä. Samaten logi sisältää tiedon muista sudo-komentoon liittyvistä toiminnoista. 
