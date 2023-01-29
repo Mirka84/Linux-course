@@ -15,6 +15,13 @@ Auth.log sisältää tiedon onnistuneista ja epäonnistuneista sisäänkirjautum
 + Jan 29 14:17:01 MHDebian CRON[1555]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0). Sessio avautui, mutta samalla hetkellä myös sulkeutui.
 + Jan 29 14:17:01 MHDebian CRON[1555]: pam_unix(cron:session): session closed for user root.  
 
+## Jälki lokiin auth.log, epäonnistunut kirjautuminen
+
++ Jan 29 15:08:20 MHDebian sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=mirkah rhost=  user=mirkah. Tammikuun 29. klo 15.08.20 autentikointi on epäonnistunut (syötetty väärä salasana)- 
++ Jan 29 15:08:31 MHDebian sudo:   mirkah : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -F syslog. Tammikuun 29. klo 15.08.31 annettu sudo-komento, komentohetkellä oltu /var/log-hakemistossa. Käyttäjänä pääkäyttäjä. 
++ Jan 29 15:08:31 MHDebian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000). Tunnisteet kirjoitettu oikein ja sessio avattu. 
+
+
 ### Lähteet
 
 https://www.linuxquestions.org/questions/linux-general-1/what-is-the-user-1000-a-4175510196/
