@@ -1,6 +1,6 @@
-### Logit
+## Logit
 
-## /var/log/syslog
+### /var/log/syslog
 
 Syslog kerää logeja koko järjestelmän käytöstä. 
 
@@ -10,7 +10,7 @@ Syslog kerää logeja koko järjestelmän käytöstä.
 + Jan 29 15:42:58 MHDebian rtkit-daemon[1084]: Supervising 8 threads of 4 processes of 1 users. **Deamon seuraa käyttäjätietoja, salasanoja ja käyttäjätunnuksia.**
 
 
-## /var/log/auth.log
+### /var/log/auth.log
 
 Auth.log sisältää tiedon onnistuneista ja epäonnistuneista sisäänkirjautumisista ja kirjautumisyrityksistä. Samaten logi sisältää tiedon muista sudo-komentoon liittyvistä toiminnoista. 
 
@@ -21,7 +21,7 @@ Auth.log sisältää tiedon onnistuneista ja epäonnistuneista sisäänkirjautum
 + Jan 29 14:17:01 MHDebian CRON[1555]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0). **Sessio avautui, mutta samalla hetkellä myös sulkeutui.**
 + Jan 29 14:17:01 MHDebian CRON[1555]: pam_unix(cron:session): session closed for user root. 
 
-## /var/log/apache2/access.log
+### /var/log/apache2/access.log
 
 Apache access.log kerää tietoa kaikista Apache-serverin tekemistä pyynnöistä. 
 
@@ -30,7 +30,7 @@ Apache access.log kerää tietoa kaikista Apache-serverin tekemistä pyynnöist�
 + 127.0.0.1 - - [28/Jan/2023:21:10:55 +0200] "GET / HTTP/1.1" 200 3380 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0 **Tammikuun 28. 2023 klo 21.10.55 on käynnistetty Firefox selain.**
 + 127.0.0.1 - - [29/Jan/2023:14:29:30 +0200] "GET / HTTP/1.1" 200 3380 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" **Tammikuun 29. 2023 klo 14.29.30 on taas käynnistetty Firefox.**
 
-## /var/log/apache2/error.log
+### /var/log/apache2/error.log
 
 Apache2 error.logiin tallentuu tiedot virheiimoituksista ja kummallisuuksista. Lokitiedot ovat tallentuneet siitä lähtien, kun Apache2 on asennettu laitteelle. 
 
@@ -40,12 +40,15 @@ Apache2 error.logiin tallentuu tiedot virheiimoituksista ja kummallisuuksista. L
 + [Sun Jan 29 14:14:38.064097 2023] [core:notice] [pid 669:tid 140366684515648] AH00094: Command line: '/usr/sbin/apache2'
 
 
-## Jälki lokiin auth.log, väärä salasana sudo-komentoon sekä väärillä tiedoilla kirjautuminen
+### Jälki lokiin auth.log, väärä salasana sudo-komentoon sekä väärillä tiedoilla kirjautuminen
+
+#### Väärä salasana 
 
 + Jan 29 15:08:20 MHDebian sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=mirkah rhost=  user=mirkah. Tammikuun 29. klo 15.08.20 autentikointi on epäonnistunut (syötetty väärä salasana sudo-komennossa). 
 + Jan 29 15:08:31 MHDebian sudo:   mirkah : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -F syslog. Tammikuun 29. klo 15.08.31 annettu sudo-komento, komentohetkellä oltu /var/log-hakemistossa. Käyttäjänä pääkäyttäjä. 
 + Jan 29 15:08:31 MHDebian sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000). Tunnisteet kirjoitettu oikein ja sessio avattu. 
 
+#### Väärä kirjautuminen
 
 + **Jan 29 15:21:07 MHDebian lightdm: gkr-pam: stashed password to try later in open session.** Kirjautuessa syötetty väärä salasana. 
 + Jan 29 15:21:07 MHDebian lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm. 
