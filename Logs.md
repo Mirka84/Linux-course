@@ -1,3 +1,14 @@
+## Artikkeli 
+
+Artikkelitarjontaa oli runsaasti, joten oli hieman valinnanvaikeutta. Artikkeliksi valikoitui https://dev.to/cosimo/five-tips-to-be-a-more-effective-command-line-user-44e2, Five tips to be a more effective command-line user. 
+
++ Artikkeli oli tarkoitettu enemmän jo kokeneemmalle komentokehotteen käyttäjälle
++ Hyödyllisiä vinkkejä: CNTR + R, komentohistoria
++ Aliakset: usein käytettyjä pidempiä komentoja voi opettaa shellille, esim. kirjoittajan yksi esimerkki cdb = cd ..
++ Hakemistosta toiseen siirtymistä voi nopeuttaa configuroimalla .bashrc tiedostoon lyhyemmät komennot '
++ Samaten tiettyjen ohjelmien ajamisen voi automatisoida, kun siirrytään johonkin tiedostoon, esim. jonkun projektin kansioon. Shelli käynnistää tällöin automaattisesti ne ohjelmat, mitä projektissa tarvitaan. Tämä muutoskin tehdään .bashrc tiedostoon.   
++ Tehtävien suorittamista saa nopeutettua ja automatisoitua helposti, mutta tämä vaatii paljon harjoittelua ja taitojen ylläpitoa. 
+
 ## Logit
 
 ### /var/log/syslog
