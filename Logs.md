@@ -76,6 +76,8 @@ https://stackify.com/apache-error-log-explained/
 
 https://www.plesk.com/blog/featured/linux-logs-explained/#:~:text=Linux%20logs%20give%20you%20a%20visual%20history%20of,where%20best%20to%20put%20the%20log%20of%20events.
 
+https://dev.to/cosimo/five-tips-to-be-a-more-effective-command-line-user-44e2
+
 
 
 
