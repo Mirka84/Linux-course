@@ -43,6 +43,13 @@ Käyttäjä Elmeri loi myös oman sivun:
 
 ![Elmerin_kotisivu_toimii](https://user-images.githubusercontent.com/82024427/216125780-9f3869bc-32d1-4fc7-a5e5-7df35d3e37d6.png)
 
+### Validointi
+
+Kotisivuni ei ole julkinen, joten kopioin validoitavan tekstin teksti-inputtina validaattoriin, https://validator.w3.org/nu/#textarea. 
+
+![validointi](https://user-images.githubusercontent.com/82024427/216129403-4e9b868a-56dc-461a-af4a-73f06ed8d0b5.png)
+
+
 
 
 
