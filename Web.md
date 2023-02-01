@@ -13,7 +13,9 @@ Jaksossa ydinpointit:
 4. ketkä luovat tilin mutta eivät maksa palveluista
 5. millä aloilla asiakkaat työskentelevät
 6. minkälaisia kilpailijoita markkinoilla on
-+ dataa on paljon, haastavaa tietää, mikä on merkittävää dataa. 
++ dataa on paljon, ja siinä onkin haaste tietää, mikä on hyödyllistä. 
+
+Podcastin aihe tuntui itsestäänselvältä, mutta juuri siitä syystä datan analysoinnin merkitys bisneksen kasvattamisessa voi unohtua.  
 
 ### Apache-sivun vaihto
 
