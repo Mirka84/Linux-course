@@ -49,6 +49,10 @@ Kotisivuni ei ole julkinen, joten kopioin validoitavan tekstin teksti-inputtina 
 
 ![validointi](https://user-images.githubusercontent.com/82024427/216129403-4e9b868a-56dc-461a-af4a-73f06ed8d0b5.png)
 
+Kotisivu näyttää vielä tältä: 
+
+![kotisivu](https://user-images.githubusercontent.com/82024427/216129888-76990ada-3326-4d0b-b346-55feeaada5c5.png)
+
 
 
 
