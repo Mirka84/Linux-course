@@ -1,5 +1,20 @@
 ## Webbi
 
+#### Podcast
+
+Kuuntelin Indie Hackerin sivuilta Sofware Socialin jakson 126, https://share.transistor.fm/s/428eaeff, Qualitative and Quantitative data. Jakson kesto oli 34 min. 
+
+Jaksossa ydinpointit: 
++ kun mietitään, miten kehittää omaa bisnestä, hyvä vaihtoehto on selvittää asia suoraan omilta asiakkailta
++ tämä tapahtuu: 
+1. tutkimalla, ketä ovat omat asiakkaat
+2. ketkä esim. uudistavat tilauksensa
+3. ketkä eivät uudista tilausta
+4. ketkä luovat tilin mutta eivät maksa palveluista
+5. millä aloilla asiakkaat työskentelevät
+6. minkälaisia kilpailijoita markkinoilla on
++ dataa on paljon, haastavaa tietää, mikä on merkittävää dataa. 
+
 ### Apache-sivun vaihto
 
 Apache2-palvelin oli asennettu edellisen luennon jälkeen, joten uudelleen asennusta ei tarvittu. Palvelin käynnistettiin sudo systemctl start apache2-komennolla. 
