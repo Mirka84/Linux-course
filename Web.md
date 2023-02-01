@@ -71,6 +71,15 @@ Kotisivu näyttää vielä tältä:
 ![kotisivu](https://user-images.githubusercontent.com/82024427/216129888-76990ada-3326-4d0b-b346-55feeaada5c5.png)
 
 
+### Lähteet
+
+https://www.indiehackers.com/podcasts
+
+https://validator.w3.org/
+
+https://terokarvinen.com/2012/short-html5-page/
+
+
 
 
 
