@@ -53,7 +53,7 @@ helmi 04 21:18:18 mirka-virtualbox apachectl[2477]: Unknown Authz provider: alla
 Seuraavaksi uudelleen käynnistys onnistuu. Mutta testi $ curl localhost antaa Forbidden (403). Eli jotain on vielä pielessä. Käyn katsomassa Apachen error logia (komento $ sudo tail -l /var/log/apache2/error.log) ja sieltä saan vastauksen, minkä perusteella voin jatkaa selvitystä. 
 
 [Sat Feb 04 21:21:09.075050 2023] [authz_core:error] [pid 2505:tid 139780157146880] [client ::1:46846] AH01630: client denied by server configuration: /home/mirkah/public_sites/
-[Sat Feb 04 21:21:28.263582 2023] [authz_core:error] [pid 2505:tid 139780140361472] [client 127.0.0.1:44142] AH01630: **client denied by server configuration: /home/mirkah/public_sites/** Suuntaan jälleen katseet newfrontpage.conf tiedostoon ja käyn katsomassa, mikä polku tiedostoon on annettu. Siellä on kirjoitusvirhe polussa. Korjaan kirjoitusvirheen ja sivu käynnistyy. 
+[Sat Feb 04 21:21:28.263582 2023] [authz_core:error] [pid 2505:tid 139780140361472] [client 127.0.0.1:44142] AH01630: **client denied by server configuration: /home/mirkah/public_sites/** Suuntaan jälleen katseet newfrontpage.conf tiedostoon ja käyn katsomassa, mikä polku tiedostoon on annettu. Siellä on kirjoitusvirhe polussa. Korjaan kirjoitusvirheen, käynnistän demonin uudestaan ja testaan sivun komennolla $ curl localhost. Nyt sivun teksti näkyy oikein. 
 
 ![sivu_toimii_taas_ongelmien_jalkeen](https://user-images.githubusercontent.com/82024427/216788043-815d851f-35cc-439d-8781-27d973ebe757.png)
 
