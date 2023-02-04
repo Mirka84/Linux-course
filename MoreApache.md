@@ -25,4 +25,13 @@ Vanhan kotisivun teksti:
 Uuden kotisivun tekstin testaus: 
 ![testataan_uutta_etusivua](https://user-images.githubusercontent.com/82024427/216786912-9f988e54-e0f9-4d38-bcb5-be79334349ab.png)
 
+Testi toimii!
+
+### Virhe asetustiedostossa
+
+Käyn muokkaamassa newfrontpage.conf tiedoston tekstiä. Siirryn komennolla $ cd /etc/apache2/sites-available oikeaan kansioon, sitten komennolla $ micro newfrontpage.conf avaan asetustiedoston tekstieditoriin ja muokkailen tekstiä ja teen virheitä. Muokkauksen jälkeen testaan kotisivua komennolla $ curl localhost. Tässä kohtaa hämmennyn, koska en saa mitään virheilmoitusta ja kotisivun teksti tulee näkyviin. Kokeilen muutaman kerran, käyn myös kertaalleen katsomassa Apachen virhelokin, mutta sielläkään ei ole mitään ihmeellistä. Sitten huomaan, että en ole uudelleen käynnistänyt Apachea. Komento $ sudo systemctl restart apache2 tuottaakin sitten toivotun virheilmoituksen. 
+
+![apachestatus_virheilmoitus](https://user-images.githubusercontent.com/82024427/216787206-a082100d-afad-4919-9e35-dd85eb3ba15a.png)
+
+
 
