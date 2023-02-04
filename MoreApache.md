@@ -35,6 +35,8 @@ Käyn muokkaamassa newfrontpage.conf tiedoston tekstiä. Siirryn komennolla $ cd
 
 Annan neuvotun komennon $ sudo systemctl status apache2 ja saan virhetiedot. Poimin ilmoituksesta tämän rivin: Syntax error on line 6 of /etc/apache2/sites-enabled/newfrontpage.conf ja tämän rivin perusteella lähtisin tutkimaan newfrontpage.conf tiedostoa. Virheilmoituksessa myös sanotaan, että Apache error logs saattaa sisältää enemmän tietoa, joten tarkistan sen komennolla $ sudo tail -l /var/log/apache2/error.log. Lokitiedot eivät suoraan palauta mitään uutta tietoa, muuta kuin lisäohjeen antaa komento $ sudo /usr/sbin/apache2ctl configtest. Virheilmoituksessa kerrottiin tarkemmin, missä kohtaa tiedostoa oli virhe. 
 
+![lokitiedot_virheilmoitus](https://user-images.githubusercontent.com/82024427/216787691-ccc9c4c6-8216-424d-8fe5-b2fa5637d2be.png)
+
 Käyn korjaamassa virheen, 
 
 
