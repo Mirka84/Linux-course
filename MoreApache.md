@@ -37,6 +37,28 @@ Annan neuvotun komennon $ sudo systemctl status apache2 ja saan virhetiedot. Poi
 
 ![lokitiedot_virheilmoitus](https://user-images.githubusercontent.com/82024427/216787691-ccc9c4c6-8216-424d-8fe5-b2fa5637d2be.png)
 
-Käyn korjaamassa virheen, 
+Käyn korjaamassa virheen, ja annan uudestaan komennon käynnistää demoni, mutta saan uuden virheilmoituksen: 
+mirkah@mirka-virtualbox:/etc/apache2/sites-available$ sudo systemctl status apache2
+● apache2.service - The Apache HTTP Server
+     Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+     Active: failed (Result: exit-code) since Sat 2023-02-04 21:18:18 EET; 13s ago
+       Docs: https://httpd.apache.org/docs/2.4/
+    Process: 2474 ExecStart=/usr/sbin/apachectl start (code=exited, status=1/FAILURE)
+        CPU: 7ms
+
+helmi 04 21:18:18 mirka-virtualbox systemd[1]: Starting The Apache HTTP Server...
+**helmi 04 21:18:18 mirka-virtualbox apachectl[2477]: AH00526: Syntax error on line 4 of /etc/apache2/sites-enabled/newfrontpage.conf:
+helmi 04 21:18:18 mirka-virtualbox apachectl[2477]: Unknown Authz provider: alla** Poimin tämän rivin virheilmoituksesta ja menen katsomaan tiedostoa newfrontpage.conf ja sen riviä 4. Sieltä löytyy kirjoitusvirhe. 
+
+Seuraavaksi uudelleen käynnistys onnistuu. Mutta testi $ curl localhost antaa Forbidden (403). Eli jotain on vielä pielessä. Käyn katsomassa Apachen error logia (komento $ sudo tail -l /var/log/apache2/error.log) ja sieltä saan vastauksen, minkä perusteella voin jatkaa selvitystä. 
+
+[Sat Feb 04 21:21:09.075050 2023] [authz_core:error] [pid 2505:tid 139780157146880] [client ::1:46846] AH01630: client denied by server configuration: /home/mirkah/public_sites/
+[Sat Feb 04 21:21:28.263582 2023] [authz_core:error] [pid 2505:tid 139780140361472] [client 127.0.0.1:44142] AH01630: **client denied by server configuration: /home/mirkah/public_sites/** Suuntaan jälleen katseet newfrontpage.conf tiedostoon ja käyn katsomassa, mikä polku tiedostoon on annettu. Siellä on kirjoitusvirhe polussa. Korjaan kirjoitusvirheen ja sivu käynnistyy. 
+
+![sivu_toimii_taas_ongelmien_jalkeen](https://user-images.githubusercontent.com/82024427/216788043-815d851f-35cc-439d-8781-27d973ebe757.png)
+
+
+
+
 
 
