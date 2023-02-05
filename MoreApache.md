@@ -14,7 +14,12 @@
 
 ### Name-baased Virtual Host Support 
 
-
++ VirtuaaliHost on teknologia, joka mahdollistaa useamman nettisivun ylläpitämisen yhdellä webbiserverillä
++ Voi olla IP- tai nimiperusteisia virtuaalihosteja
++ Nimiperusteisesta virtuaalihostia käytettäessä serveri odottaa, että clientti ilmoittaa oikean hosting nimen pyynnön mukana
++ Tällöin usealla hostilla voi olla sama IP osoite
++ Serveri etsii pyydetyn IP-osoitteen ja portin perusteella parhaimman virtuaaliHostin, ja jos virtuaaliHosteja löytyy useampia samasta IP-osoitteesta, serveri vertailee serverinimiä ja aliaksia
++ Apachen asetustiedostoon luodaan jokaiselle virtuaaliHostille omat blokit. Blokkien sisään kerrotaan serverin nimi sekä dokumenttien polku, sekä hakemisto, mistä nettisivun tiedostot löytyvät. 
 
 ### Apachen uusi etusivu
 
@@ -75,7 +80,13 @@ Seuraavaksi uudelleen käynnistys onnistuu. Mutta testi $ curl localhost antaa F
 
 ### Lähteet
 
+https://httpd.apache.org/docs/2.4/getting-started.html
+
+https://httpd.apache.org/docs/current/vhosts/name-based.html
+
 https://kanava.to/dynaaminen-sisalto-ja-sen-mahdollisuudet/
+
+https://www.ibm.com/docs/en/i/7.3?topic=concepts-virtual-hosts
 
 
 
