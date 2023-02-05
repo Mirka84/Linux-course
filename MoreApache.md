@@ -1,4 +1,20 @@
-## Lisää apachea
+## Lisää Apachea
+
+### Getting started
+
++ URL kertoo osoitteen, missä jokin resurssi sijaitsee netissä
++ Clientti lähettää serverille resurssipyynnön käyttäen jotain tiettyä protokollaa (esim. http, https). Resurssipyyntö lähetetään käyttäen URL-polkua.
++ Serveri lähettää clientille vastauksen. Vastaus sisältää statuksen (esim. 200 ok, 4040 not found jne.) ja mahdollisesti bodyn. 
++ Nämä clientin ja serverin väliset liikkeet tallentuvat lokitiedostoon
++ Clientin täytyy ensin selvittää, missä serverissä pyydetty resurssi sijaitsee. Clietti selvittää serverin nimen ja sitä kautta IP-osoitteen, jonne pyyntö lähetetään
++ Useampi hostname voi käyttää samaa IP-osoitetta ja yhtä fyysistä serveriä kohden voi olla useampia IP-osoitteita (tämä onnistuu käyttämällä VirtualHostia)
++ Serverin ohjaukset kirjataan Apachen konfigurointi-tiedostoon
++ Nettisivun sisältö voidaan jakaa staattiseen ja dynaamiseen sisältöön: staattista sisältöä ovat esim. kuva, html ja css tiedostot, jotka sijaitsevat tietyssä tiedostokansiossa. Dynaaminen eli mukautuva sisältö muodostuu siinä tilanteessa, kun pyyntö tehdään. Esimerkkejä dynaamisesta sisällöstä ovat mm. käyttäjän sijainti, sää ja lämpötila sekä käytettävä järjestelmä (selain, laitetyyppi). Myös tieto siitä, kuinka moni muu käyttäjä katselee juuri samaa sivua kuin sinä, on dynaamista tietoa. 
++ Lokitiedostot ja varsinkin virheloki on ongelmanselvityksestä tärkein tietolähde
+
+### Name-baased Virtual Host Support 
+
+
 
 ### Apachen uusi etusivu
 
@@ -56,6 +72,10 @@ Seuraavaksi uudelleen käynnistys onnistuu. Mutta testi $ curl localhost antaa F
 [Sat Feb 04 21:21:28.263582 2023] [authz_core:error] [pid 2505:tid 139780140361472] [client 127.0.0.1:44142] AH01630: **client denied by server configuration: /home/mirkah/public_sites/** Suuntaan jälleen katseet newfrontpage.conf tiedostoon ja käyn katsomassa, mikä polku tiedostoon on annettu. Siellä on kirjoitusvirhe polussa. Korjaan kirjoitusvirheen, käynnistän demonin uudestaan ja testaan sivun komennolla $ curl localhost. Nyt sivun teksti näkyy oikein. 
 
 ![sivu_toimii_taas_ongelmien_jalkeen](https://user-images.githubusercontent.com/82024427/216788043-815d851f-35cc-439d-8781-27d973ebe757.png)
+
+### Lähteet
+
+https://kanava.to/dynaaminen-sisalto-ja-sen-mahdollisuudet/
 
 
 
