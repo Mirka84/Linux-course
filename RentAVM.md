@@ -28,7 +28,7 @@ Loin kaksi käyttäjää, mirkan ja jalmarin. Käyttäjien luonnit tein komennol
 
 Sitten oli vuorossa käyttäjien testaus. Tässä ilmenikin sitten haastetta. Avasin uuden terminaalin, ja yritin testata käyttäjät. Annoin komennon `ssh mirka@167.71....`, eli käyttäjä + @ + koneen IP-osoite. Sain virheilmoituksen Permission denied (publickey). 
 
-![uuden_kayttajan_testaus_toisessa_terminaalissa_esto](https://user-images.githubusercontent.com/82024427/217602714-0dfe816A1-aeb0-489e-94bc-e5e1c014006d.png)
+![uuden_kayttajan_testaus_toisessa_terminaalissa_esto](https://user-images.githubusercontent.com/82024427/217608297-f7e71527-0dd8-4b9c-b7bd-3b3bd09c806f.png)
 
 Googlettelin tuota virheilmoitusta, ja kokeilin sivun https://askubuntu.com/questions/311558/ssh-permission-denied-publickey ohjetta antaa komento 
 `ssh-copy-id -i ~/.ssh/id_res.pub -p 22 mirka@167.71....`, mutta tämä  ei auttanut. Sitten päädyin antamaan sillä terminaalilla, missä yhteys vuokrakoneeseen oli, komennon `su - mirka`, ja käyttäjähän vaihtui mirkaksi. Samalla komenolla yritin kääntää taas käyttäjän takaisin rootiksi. Tässä pyydettiin salasanaa, ja oletan, että se oli rootin salasana. Ja sellaista en mielestäni antanut. Joten tästä syystä jatkoin sitten käyttäjänä mirka. Korotin käyttäjän jalmarikin sudoksi  siitä syystä, että halusin varmistaa käyttäjälle mirka annetun salasanan toimivuuden. 
