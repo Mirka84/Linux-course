@@ -55,7 +55,9 @@ Käyttäjä mirka sulki rootin komennolla `$ sudo usermod --lock root`, päivitt
 
 ### Merkkejä tunkeutumisyrityksistä 
 
+Merkkejä tunkeutumisyrityksistä lähdin etsimään lokitiedoista. Avasin ensin komennolla `$ sudo tail -F syslog` syslogin. Siellä näkyi useammasta IP-lähteestä 
 
+![tunkeutumisia](https://user-images.githubusercontent.com/82024427/217612284-7aa1606c-264f-40ca-8dde-48a25f29939d.png)
 
 
 ### Lähteet: 
