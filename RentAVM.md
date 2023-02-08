@@ -13,9 +13,7 @@ Ja viimeisenä CPU. Valitsin ohjeen (ja toki myös hinnan) mukaan halvimman vaih
 
 ![image](https://user-images.githubusercontent.com/82024427/217593049-9fcbbf9c-d6c6-49a3-80d9-84c66e3e928b.png)
 
-Autentikointimenetelmäksi valitsin ssh-avaimen. Lokaalissa terminaalissa annoin komennon $ ssh-key ja myös $ ssh-keygen, mutta sain virheilmoituksen ssh-keygen command not found. Tämän virheilmoituksen perusteella googlettelin, mikä voisi olla vikana. Ratkaisu löytyi tältä sivulta: https://www.thegeekdiary.com/ssh-keygen-command-not-found/. Asensin OpenSSH paketin komennolla 
-
-`$ sudo apt-get install openssh-client` 
+Autentikointimenetelmäksi valitsin ssh-avaimen. Lokaalissa terminaalissa annoin komennon $ ssh-key ja myös $ ssh-keygen, mutta sain virheilmoituksen ssh-keygen command not found. Tämän virheilmoituksen perusteella googlettelin, mikä voisi olla vikana. Ratkaisu löytyi tältä sivulta: https://www.thegeekdiary.com/ssh-keygen-command-not-found/. Asensin OpenSSH paketin komennolla `$ sudo apt-get install openssh-client`. Asennuksen jälkeen tein komennon `ssh-keygen`, siirryin .ssh-kansioon komennolla `cd .ssh`, tarkistin kansion sisällä olevat tidosto `ls` komennolla ja avasin julkisen avaimen tiedoston `micro id_rsa.pub` ja kopioin julkisen avaimen ja liitin DigitalOceanin sivuille. 
 
 Valintojen jälkeen painettiin painiketta Create Droplet ja hetken kuluttua palvelimeni oli valmis. 
 
