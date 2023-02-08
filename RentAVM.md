@@ -1,5 +1,17 @@
 ## Tiivistelmä tekstistä 
 
+Teksti First Steps on a New Virtual Private Server – an Example on DigitalOcean and Ubuntu 16.04 LTS oli erinomaisen yksityiskohtainen ohjeistus siihen, miten aloitetaan oman yksityisen virtuaalikoneen käyttö. 
+
+Ohjeistuksessa oli selkeästi kerrottu, miten saadaan yhtyes tuohon virtuaalikoneeseen ja kuinka tuota virtuaalikonetta voidaan käyttää omasta lokaalista terminaalista. Lähes kaikki artikkelin vaiheet tulevat läpikäytyä omissa tehtävissä. 
+
+Artikkelissa kerrotut stepit olivat yksinkertaisia ja selkeitä. Aloittelijakin pärjää niillä. Stepit oli hienosti jaettu: 
+- yhteyden ottaminen
+- palomuurin asentaminen
+- käyttäjän luonti 
+- rootin sulkeminen
+- sovellusten päivittäminen ja upgreidaus
+- käyttäjän oma valintaisen serverin asennus. 
+
 ### Oman virtuaalipalvelimen vuokraus 
 
 Oman virtuaalipalvelimen vuokrausprosessi aloitettiin 7.2. pidetyllä luennolla. Yritin saada vuokrattua palvelimen Linodelta, mutta sieltä ei koskaan tullut vahvistussähköpostia. 
@@ -40,6 +52,8 @@ Käyttäjä mirka sulki rootin komennolla `$ sudo usermod --lock root`, päivitt
 ![terminaali_kuva_localhostin_tekstista](https://user-images.githubusercontent.com/82024427/217608028-ca77dde3-005e-4a8b-8497-3cb65dae7975.png)
 
 ![kuva_Vuokrakoneen_localhostista](https://user-images.githubusercontent.com/82024427/217608069-9eecc6bd-9f5c-4482-b63b-2e1e59ff9f08.png)
+
+### Merkkejä tunkeutumisyrityksistä 
 
 
 
