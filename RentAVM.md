@@ -55,7 +55,7 @@ Käyttäjä mirka sulki rootin komennolla `$ sudo usermod --lock root`, päivitt
 
 ### Merkkejä tunkeutumisyrityksistä 
 
-Merkkejä tunkeutumisyrityksistä lähdin etsimään lokitiedoista. Avasin ensin komennolla `$ sudo tail -F syslog` syslogin. Siellä näkyi useammasta IP-lähteestä 
+Merkkejä tunkeutumisyrityksistä lähdin etsimään lokitiedoista. Avasin ensin komennolla `$ sudo tail -F syslog` syslogin. Siellä toiminta oli paljon vilkkaampaa, kuin vaikka vertasi lokaalin koneen toimintaan. Komennolla `$ sudo tail -F auth.log` paljasti ainakin kaksi käyttäjää, john ja mysql, jotka olivat yrittäneet kirjautua.  
 
 ![tunkeutumisia](https://user-images.githubusercontent.com/82024427/217612284-7aa1606c-264f-40ca-8dde-48a25f29939d.png)
 
