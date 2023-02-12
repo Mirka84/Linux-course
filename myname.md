@@ -12,7 +12,7 @@ Sitten oli vuorossa oman tilin luominen (tai kirjautuminen, jos jollakin on jo t
 
 ![image](https://user-images.githubusercontent.com/82024427/218304219-ee4d63b4-1800-43f6-985b-8596eceebdaf.png)
 
-Maksun suorittamisen jälkeen sivun alala
+Maksun suorittamisen jälkeen seurasi seuraavan stepin valinta. 
 
 ![image](https://user-images.githubusercontent.com/82024427/218303552-4452c021-e005-409c-afdf-3fbf61f9befa.png)
 
