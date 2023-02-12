@@ -8,7 +8,11 @@ Nimi mirkaheikkila.com oli halvin ja vapaana, joten sen päätin napata. Lisäsi
 
 ![image](https://user-images.githubusercontent.com/82024427/218304043-c28a8a9d-c0c7-4b13-b893-344e8b64bf25.png)
 
+Sitten oli vuorossa oman tilin luominen (tai kirjautuminen, jos jollakin on jo tili, itselläni ei). Täytin tiedot, käyttäjänimi, salasana, oma nimi ja sposti, ja painoin Create account and continue. Tämän jälkeen oli vuorossa maksutietojen syöttäminen. Syötin luottokortin tiedot. 
 
+![image](https://user-images.githubusercontent.com/82024427/218304219-ee4d63b4-1800-43f6-985b-8596eceebdaf.png)
+
+Maksun suorittamisen jälkeen sivun alala
 
 ![image](https://user-images.githubusercontent.com/82024427/218303552-4452c021-e005-409c-afdf-3fbf61f9befa.png)
 
