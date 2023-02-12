@@ -30,6 +30,18 @@ Syötin selaimeen www.mirkaheikkila.com, ja vastauksena sain oman aloitussivuni.
 
 ![image](https://user-images.githubusercontent.com/82024427/218303797-6cc16d3d-79b6-4395-be4c-d4f9ebc12fab.png)
 
+### Komennot 'host' ja 'dig'
+
+Komennolla `$ host mirkaheikkila.com` ja `$ host www.mirkaheikkila.com` saan seuraavia tietoja: 
+
+`mirkaheikkila.com mail is handled by 10 eforward1.registrar-servers.com` 
+`www.mirkaheikkila.com has address 167.71.53.92` 
+
+Eforward1.registrar-server viittaa NameCheapin palvelimeen. Ja toinen tieto kertoo nimen osoittaman sivun IP-osoitteen. 
+
+![host_komento](https://user-images.githubusercontent.com/82024427/218305784-1edaec07-12ee-4471-8f03-c2831b9afe5f.png)
+
+
 ### Lähteet 
 
 https://elementor.com/resources/glossary/what-are-dns-record-types/?utm_source=google&utm_medium=cpc&utm_campaign=13060922353&utm_term=&gclid=EAIaIQobChMI-9m68d2P_QIVXJBoCR0_8gSkEAAYAiAAEgIeIvD_BwE
