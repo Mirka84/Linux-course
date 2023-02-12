@@ -16,9 +16,11 @@ Maksun suorittamisen jälkeen seurasi seuraavan stepin valinta. Valitsin Set up 
 
 ![image](https://user-images.githubusercontent.com/82024427/218303552-4452c021-e005-409c-afdf-3fbf61f9befa.png)
 
-
+Omalla tilillä näkyi heti vuokraamani nimi. Nimen perässä oli painike Manage, ja sitä klikkasin. 
 
 ![image](https://user-images.githubusercontent.com/82024427/218303586-af944182-0c58-4f28-81ef-8720973ee9ef.png)
+
+
 
 ![image](https://user-images.githubusercontent.com/82024427/218303717-bfad04c7-f351-4a12-8d96-9765ad808979.png)
 
