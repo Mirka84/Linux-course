@@ -1,6 +1,14 @@
 ## Vuokraa nimi
 
-Päätin vuokrata nimen NameCheapista. 
+Päätin vuokrata nimen NameCheapista. Vuokraus lähti liikkeelle nimen etsimisestä. 
+
+![image](https://user-images.githubusercontent.com/82024427/218303892-aea82f65-9b48-448b-8d4d-8f73ae065fb8.png)
+
+Nimi mirkaheikkila.com oli halvin ja vapaana, joten sen päätin napata. Lisäsin tuotteen ostoskoriin. Mitään lisätuotteita en ostanut. Seuraavaksi klikkasin Check out-painiketta, se oli ainoa vaihtoehto etenemiseen. Sen jälkeen klikkailin nimen automaattisen uusinnan päälle, uusiutuminen 5 vuoden välein. (Tässä kohtaa ehkä tarkkasilmäiset huomaavat, että nimi on mirkaheikkila.net. Tätä nimeä en oikeasti vuokrannut, vaan nyt otan kuvat, ensimmäisellä kierroksella en tohkeissanit muistanut ottaa kuvia.) Tässäkin jätin valitsematta mitään lisäpalveluita, vaan rullailin sivun loppuun ja painoin Confirm order. 
+
+![image](https://user-images.githubusercontent.com/82024427/218304043-c28a8a9d-c0c7-4b13-b893-344e8b64bf25.png)
+
+
 
 ![image](https://user-images.githubusercontent.com/82024427/218303552-4452c021-e005-409c-afdf-3fbf61f9befa.png)
 
