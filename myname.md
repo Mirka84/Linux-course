@@ -20,12 +20,16 @@ Omalla tilillä näkyi heti vuokraamani nimi. Nimen perässä oli painike Manage
 
 ![image](https://user-images.githubusercontent.com/82024427/218303586-af944182-0c58-4f28-81ef-8720973ee9ef.png)
 
-
+Seuraavassa vaiheessa valitsin vaihtoehdon Advanced DNS. Siellä pääsin lisäämään IP-osoitteen nimelle. Lisäsin tunnilla käydyn ohjeen mukaan tyypiksi A Record, hostiksi nimeni ja toisen A Recordin pelkälle www:lle, sekä lisäsin molemmille saman IP-osoitteen. A Record osoittaa IPv4 osoitteisiin, tästä syystä tämä valinta (https://elementor.com/resources/glossary/what-are-dns-record-types/?utm_source=google&utm_medium=cpc&utm_campaign=13060922353&utm_term=&gclid=EAIaIQobChMI-9m68d2P_QIVXJBoCR0_8gSkEAAYAiAAEgIeIvD_BwE). Klikkasin painiketta Save changes ja testasin tilanteen. 
 
 ![image](https://user-images.githubusercontent.com/82024427/218303717-bfad04c7-f351-4a12-8d96-9765ad808979.png)
 
 ![image](https://user-images.githubusercontent.com/82024427/218303701-8e2206c6-19e1-4cb7-a266-ecf9b60191ae.png)
 
 ![image](https://user-images.githubusercontent.com/82024427/218303797-6cc16d3d-79b6-4395-be4c-d4f9ebc12fab.png)
+
+### Lähteet 
+
+https://elementor.com/resources/glossary/what-are-dns-record-types/?utm_source=google&utm_medium=cpc&utm_campaign=13060922353&utm_term=&gclid=EAIaIQobChMI-9m68d2P_QIVXJBoCR0_8gSkEAAYAiAAEgIeIvD_BwE
 
 
