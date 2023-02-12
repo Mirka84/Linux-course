@@ -47,13 +47,20 @@ Komento `$ host 167.71.53.92`antaa seuraavan vastauksen:
 92.53.71.167.in-addr.arpa domain name pointer example235612518.com.
 mirka@debian-s-1vcpu-1gb-fra1-01:~$`
 
+Komento kertoo domain tietoja jostain tietystä IP-osoitteesta. Example235612518.com haku tuotti kuitenkin vastauksen, ettei sivua löydy. 
 
+Dig-komennon käytön aloitin testaamalla, onko paketti valmiina asennettuna, eli tein komennon `$ dig -v`. Mitään digin versiota ei ollut, joten asensin sen komennolla `$ sudo apt-get install dnsutils`. 
 
+![dig_komento](https://user-images.githubusercontent.com/82024427/218311522-7add701a-ada0-4074-90e2-4219b8668a9b.png)
+
+![dig_komento_www](https://user-images.githubusercontent.com/82024427/218311525-e9dc3611-c369-4767-87d4-0eb78049fd90.png)
 
 ### Lähteet 
 
 https://elementor.com/resources/glossary/what-are-dns-record-types/?utm_source=google&utm_medium=cpc&utm_campaign=13060922353&utm_term=&gclid=EAIaIQobChMI-9m68d2P_QIVXJBoCR0_8gSkEAAYAiAAEgIeIvD_BwE
 
 https://www.geeksforgeeks.org/host-command-in-linux-with-examples/
+
+https://phoenixnap.com/kb/linux-dig-command-examples
 
 
