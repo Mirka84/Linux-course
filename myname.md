@@ -41,9 +41,19 @@ Eforward1.registrar-server viittaa NameCheapin palvelimeen. Ja toinen tieto kert
 
 ![host_komento](https://user-images.githubusercontent.com/82024427/218305784-1edaec07-12ee-4471-8f03-c2831b9afe5f.png)
 
+Komento `$ host 167.71.53.92`antaa seuraavan vastauksen: 
+
+`mirka@debian-s-1vcpu-1gb-fra1-01:~$ host 167.71.53.92
+92.53.71.167.in-addr.arpa domain name pointer example235612518.com.
+mirka@debian-s-1vcpu-1gb-fra1-01:~$`
+
+
+
 
 ### Lähteet 
 
 https://elementor.com/resources/glossary/what-are-dns-record-types/?utm_source=google&utm_medium=cpc&utm_campaign=13060922353&utm_term=&gclid=EAIaIQobChMI-9m68d2P_QIVXJBoCR0_8gSkEAAYAiAAEgIeIvD_BwE
+
+https://www.geeksforgeeks.org/host-command-in-linux-with-examples/
 
 
