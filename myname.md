@@ -48,12 +48,16 @@ Komento `$ host 167.71.53.92`antaa seuraavan vastauksen:
 mirka@debian-s-1vcpu-1gb-fra1-01:~$`
 
 Komento kertoo domain tietoja jostain tietystä IP-osoitteesta. Example235612518.com haku tuotti kuitenkin vastauksen, ettei sivua löydy. 
+  
+Dig-komennon käytön aloitin testaamalla, onko paketti valmiina asennettuna, eli tein komennon `$ dig -v`. Mitään digin versiota ei ollut, joten asensin sen komennolla `$ sudo apt-get install dnsutils`.
 
-Dig-komennon käytön aloitin testaamalla, onko paketti valmiina asennettuna, eli tein komennon `$ dig -v`. Mitään digin versiota ei ollut, joten asensin sen komennolla `$ sudo apt-get install dnsutils`. 
+Komennot `$ dig mirkaheikkila.com` ja `$ dig www.mirkaheikkila.com` antavat erilaisia tuloksia. Artikkelin https://phoenixnap.com/kb/linux-dig-command-examples mukaan dig-komennon vastauksessa tärkeintä on Answer-osio. Ensimmäinen komento ei tuottanut ollenkaan Answer-osiota. Ensimmäinen komento palauttaa Authority-osion. Se sisältää tietoja domainista, kuten adminin email-osoitteen, SOA-tietoa (start of authority). 
 
-![dig_komento](https://user-images.githubusercontent.com/82024427/218311522-7add701a-ada0-4074-90e2-4219b8668a9b.png)
+Kun taas haki www.mirkaheikkila.com-tietoja, tuolloin palautui Answer-osio. Osio sisältää tiedon siitä, mitä haettiin, kyselyn luokan (internet), tyypin (osoite) ja IP-osoitteen.
 
 ![dig_komento_www](https://user-images.githubusercontent.com/82024427/218311525-e9dc3611-c369-4767-87d4-0eb78049fd90.png)
+
+
 
 ### Lähteet 
 
@@ -63,4 +67,6 @@ https://www.geeksforgeeks.org/host-command-in-linux-with-examples/
 
 https://phoenixnap.com/kb/linux-dig-command-examples
 
+https://www.cloudflare.com/learning/dns/dns-records/dns-soa-record/
 
+https://www.cloudns.net/blog/linux-host-command-troubleshot-dns/
