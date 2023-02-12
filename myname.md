@@ -26,6 +26,8 @@ Seuraavassa vaiheessa valitsin vaihtoehdon Advanced DNS. Siellä pääsin lisä�
 
 ![image](https://user-images.githubusercontent.com/82024427/218303701-8e2206c6-19e1-4cb7-a266-ecf9b60191ae.png)
 
+Syötin selaimeen www.mirkaheikkila.com, ja vastauksena sain oman aloitussivuni. Samaten pelkkä mirkaheikkila.comin syöttö tuotti saman aloitussivun. Muutokset siis tallentuivat onnistuneesti. 
+
 ![image](https://user-images.githubusercontent.com/82024427/218303797-6cc16d3d-79b6-4395-be4c-d4f9ebc12fab.png)
 
 ### Lähteet 
