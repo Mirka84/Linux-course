@@ -12,9 +12,11 @@ Sitten oli vuorossa oman tilin luominen (tai kirjautuminen, jos jollakin on jo t
 
 ![image](https://user-images.githubusercontent.com/82024427/218304219-ee4d63b4-1800-43f6-985b-8596eceebdaf.png)
 
-Maksun suorittamisen jälkeen seurasi seuraavan stepin valinta. 
+Maksun suorittamisen jälkeen seurasi seuraavan stepin valinta. Valitsin Set up your DNS ja painoin Getting started. Täältä ohjattiin kirjautumaan omalle NameCheapin tilille ja hallinnoimaan siellä omaa nimeä. 
 
 ![image](https://user-images.githubusercontent.com/82024427/218303552-4452c021-e005-409c-afdf-3fbf61f9befa.png)
+
+
 
 ![image](https://user-images.githubusercontent.com/82024427/218303586-af944182-0c58-4f28-81ef-8720973ee9ef.png)
 
