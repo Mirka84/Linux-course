@@ -1,5 +1,7 @@
 ## Esimerkki softa
 
+Palvelut, joissa luodaan käyttäjätili, eli annetaan asiakastiedot yritykselle, tallentaa nämä asiakastiedot tietokantaansa. Äkkiseltään tulee mieleen verkkokauppojen nettisivut, esim. Zalando, Intersport, ja mitä tahansa näitä nyt onkaan. Etuna tässä on, että asiakkaan tiedot löytyvät saman tien, tällaisissa verkkokaupoissa löytyy esim. asiakkaan ostohistoria. Omia tietoja voi päivittää asiakkaan antamilla uusilla tiedoilla, ja asiakastiedot poistetaan yrityksen käytänteiden mukaisesti. 
+
 ## Asenna postgresql
 
 Olin asentanut postgresql jo tunnilla, joten aloitin luomalla uuden käyttäjän `$ sudo createuser testimirka`. Vaihdoin käyttäjää komennolla `$ su testimirka`
