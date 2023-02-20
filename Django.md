@@ -80,7 +80,15 @@ Ja sisennykset olivat erittäin herkkiä! Tässä kesti aika kauan, että sain t
 ![juomat_nakyy_tekstina](https://user-images.githubusercontent.com/82024427/220155413-6eb7a5e5-e605-45b4-8e87-93b164c36272.png)
 
 
+### Lähteet
 
+https://terokarvinen.com/2022/django-instant-crm-tutorial/
+
+https://askubuntu.com/questions/802544/is-sudo-pip-install-still-a-broken-practice
+
+https://stackoverflow.com/questions/73586004/def-str-self-return-strself-name-in-model
+
+https://groups.google.com/g/django-users/c/Fp-UEAYEiAE 
 
 
 
