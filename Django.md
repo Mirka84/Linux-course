@@ -21,6 +21,16 @@ Ja sitten oli vuorossa se jännittävä komento, `$ pip install -r requirements.
 
 ![djangon_asennus](https://user-images.githubusercontent.com/82024427/220142660-ad19cc09-764d-4558-b138-19edb5088d97.png)
 
+Aloitin uuden projektin komennolla `$ django-admin startproject mirkahei`, siirryin projektin kansioon `cd mirkahei` komennolla ja käynnistin serverin `./manage.py runserver # NOT FOR PROD`. Serveri käynnistyi ja terminaalissa kerrottiin serverin osoite. 
+
+![django_asennettu_terminaali](https://user-images.githubusercontent.com/82024427/220144758-9d67514a-cc0d-4968-b2e8-e33f15d56aea.png)
+
+![django_asennettu](https://user-images.githubusercontent.com/82024427/220144807-5270e99b-b24f-4921-bc48-608c83e70efe.png)
+
+
+
+
+
 
 
 
