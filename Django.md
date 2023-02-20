@@ -63,14 +63,23 @@ Taulujen luonnin vuoro. `micro juomat/models.py` komento avasi Microon dokumenti
  
  `from django.contrib import admin
 from . import models
-
 admin.site.register(models.Drink)`
 
+![taulut_nakyy_adminissa](https://user-images.githubusercontent.com/82024427/220154439-aff25520-3019-401a-bc41-259b668cdfec.png)
+
+Tietokantaan lisääminen onnistui ja lisäsin muutaman juoman. 
+
+![lisataan_juomia](https://user-images.githubusercontent.com/82024427/220154722-698edc08-8686-4c99-a1d2-ddaa41346bd2.png)
+
+Juomien nimet olivat hukassa, näkyi vain objekteja. Nimet sai lisättyä lisäämällä funktion samaan tekstitiedostoon, mihin oli kirjoitettu luokkakin. Dokumentti avautui komennolla `$ micro juomat/models.py` ja sinne lisättiin funktio  
+def __str__(self):
+        return self.name
+        
+Ja sisennykset olivat erittäin herkkiä! Tässä kesti aika kauan, että sain tekstit oikealle kohdalle ja että juomien nimet näkyivät. Mutta lopulta onnistui. 
+
+![juomat_nakyy_tekstina](https://user-images.githubusercontent.com/82024427/220155413-6eb7a5e5-e605-45b4-8e87-93b164c36272.png)
 
 
-    
-
-Loin kaksi taulua, drink ja bottle. 
 
 
 
