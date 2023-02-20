@@ -37,6 +37,46 @@ Kirjautuminen myös onnistui:
 
 ![image](https://user-images.githubusercontent.com/82024427/220147808-60357832-014e-441f-8581-d29fe5c11702.png)
 
+Loin toisen käyttäjän käyttöliittymällä ja annoin toiselle käyttäjälle yhtä kovat oikeudet, kuin itselläni. Käyttöliittymä oli erittäin selkeä käyttäjän lisäämiseen. 
+
+![image](https://user-images.githubusercontent.com/82024427/220148127-3de0be61-c27f-49d8-85be-459af469c53a.png)
+
+Kirjautuminen onnistui myös toisena käyttäjänä: 
+
+![image](https://user-images.githubusercontent.com/82024427/220148400-725fceb0-c904-4e7f-8349-16d9cb90f017.png)
+
+Sitten olikin tietokannan luonnin vuoro. Tein sovelluksen nimeltä Juomat, komento `$ ./manage.py startapp juomat`. Jotta sovellus näkyisi käyttöliittymällä, täytyi se käydä lisäämässä asetuksiin, komento `$ micro mirkahei/settings.py` avasi Microon dokumentin, jonne INSSTALLED_APPS-kohtaan lisäsin myös juomat. 
+
+![lisataan_appi_asetuksiin](https://user-images.githubusercontent.com/82024427/220149272-bb3c3445-989b-4ee7-893b-27e2f076fff0.png)
+
+Taulujen luonnin vuoro. `micro juomat/models.py` komento avasi Microon dokumentin, jonne kirjoitin luokan tiedot:
+
+`class Drink(models.Model):
+    name = models.CharField(max_length=50)
+    description = models.CharField(max_length=200)`
+ 
+ Minulla oli kirjoitusvirhe atribuutissa charfiel ja virheilmoitus näytettiin terminaalissa. 
+ 
+ ![tehdaan_appi_ja_tauluja](https://user-images.githubusercontent.com/82024427/220151482-2ad4b273-e967-430a-bf5f-17f9621c080d.png)
+ 
+ Jotta taulut näkyisivät käyttöliittymällä, muutokset täytyi taas päivittää komennolla `$ ./manage.py makemigrations` ja `$ ./manage.py migrate`. Ja vielä `$ micro juomat/admin.py`tiedostoon lisättiin teksti: 
+ 
+ `from django.contrib import admin
+from . import models
+
+admin.site.register(models.Drink)`
+
+
+
+    
+
+Loin kaksi taulua, drink ja bottle. 
+
+
+
+
+
+
 
 
 
