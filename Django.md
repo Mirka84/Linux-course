@@ -1,6 +1,6 @@
 ## Tietokantasovelluksen teko 
 
-Aloitin tietokantasovelluksen teon lukemalla ensin artikkelin https://terokarvinen.com/2022/django-instant-crm-tutorial/ ja seuraamalla artikkelissa olleita ohjeita. 
+Sunnuntai 19.2.2023 klo 12.00. Aloitin tietokantasovelluksen teon lukemalla ensin artikkelin https://terokarvinen.com/2022/django-instant-crm-tutorial/ ja seuraamalla artikkelissa olleita ohjeita. 
 Ensimmäisenä asennettiin kehitysympäristö. Päivitin paketit komennolla `$ sudo apt-get update` ja sen jälkeen `$ sudo apt-get install -y virtualenv`. 
 
 ![asennettaan_virtualenv](https://user-images.githubusercontent.com/82024427/220134820-6f4b4a8b-c5a4-4353-9736-294270649496.png)
@@ -77,7 +77,9 @@ def __str__(self):
         
 Ja sisennykset olivat erittäin herkkiä! Tässä kesti aika kauan, että sain tekstit oikealle kohdalle ja että juomien nimet näkyivät. Mutta lopulta onnistui. 
 
-![juomat_nakyy_tekstina](https://user-images.githubusercontent.com/82024427/220155413-6eb7a5e5-e605-45b4-8e87-93b164c36272.png)
+![juomat_nakyy_tekstina](https://user-images.githubusercontent.com/82024427/220155413-6eb7a5e5-e605-45b4-8e87-93b164c36272.png)14.
+
+Tehtävien teko päättyi n. klo 14.30. 
 
 ### Sunnuntai 26.2. klo 13.30
 
