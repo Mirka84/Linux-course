@@ -79,6 +79,10 @@ Ja sisennykset olivat erittäin herkkiä! Tässä kesti aika kauan, että sain t
 
 ![juomat_nakyy_tekstina](https://user-images.githubusercontent.com/82024427/220155413-6eb7a5e5-e605-45b4-8e87-93b164c36272.png)
 
+### Sunnuntai 26.2. klo 13.30
+
+Tutkiskelin hieman many-to-one relationshippia ja luin tämän artikkelin: https://docs.djangoproject.com/en/4.1/topics/db/examples/many_to_one/. 
+
 
 ### Lähteet
 
@@ -89,6 +93,8 @@ https://askubuntu.com/questions/802544/is-sudo-pip-install-still-a-broken-practi
 https://stackoverflow.com/questions/73586004/def-str-self-return-strself-name-in-model
 
 https://groups.google.com/g/django-users/c/Fp-UEAYEiAE 
+
+https://docs.djangoproject.com/en/4.1/topics/db/examples/many_to_one/
 
 
 
