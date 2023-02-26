@@ -101,6 +101,10 @@ Jatkoin tämän ohjeen mukaan: https://stackoverflow.com/questions/26185687/you-
 
 ![pullo_lisatty_juomalle](https://user-images.githubusercontent.com/82024427/221410650-d39d9f91-bd30-4f97-9b04-20dd44369c10.png)
 
+Juomien tietokantaan oli ilmestynyt uusi rivi, Bottlename, ja siinä kaikilla oli valittu 0,75 l lasipullo. Vetovalikosta pystyin kuitenkin valitsemaan juomille muitakin pullovaihtoehtoja ja tallentamaan muutoksen. 
+
+Lopetin tehtävän klo 14.37.
+
 
 
 ### Lähteet
