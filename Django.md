@@ -83,7 +83,24 @@ Tehtävien teko päättyi n. klo 14.30.
 
 ### Sunnuntai 26.2. klo 13.30
 
-Tutkiskelin hieman many-to-one relationshippia ja luin tämän artikkelin: https://docs.djangoproject.com/en/4.1/topics/db/examples/many_to_one/. 
+Tutkiskelin hieman many-to-one relationshippia ja luin tämän artikkelin: https://docs.djangoproject.com/en/4.1/topics/db/examples/many_to_one/. Lisäsin models.py-tiedostoon tekstiä: `$ micro juomat/models.py` komento avasi dokumentin. Bottle-luokalla oli ensin atribuutti name, mutta koska myös Drink-luokassa on name, niin muutin Bottle-luokan nimen bottlenameksi. Lisäsin bottlename = models.ForeignKey(Bottle, on_delete=models.CASCADE) atribuutiksi Drink-luokkaan. 
+
+![foreign_key](https://user-images.githubusercontent.com/82024427/221410159-c59c3281-7adf-423d-9dba-4321923c27fa.png)
+
+`$ ./manage.py makemigrations`-komennon jälkeen sain seuraavan vastauksen: 
+It is impossible to add a non-nullable field 'bottlename' to drink without specifying a default. This is because the database needs something to populate existing rows.
+Please select a fix:
+ 1) Provide a one-off default now (will be set on all existing rows with a null value for this column)
+ 2) Quit and manually define a default value in models.py.
+Select an option: 
+
+Jatkoin tämän ohjeen mukaan: https://stackoverflow.com/questions/26185687/you-are-trying-to-add-a-non-nullable-field-new-field-to-userprofile-without-a. Keskustelun perusteella tulin siihen lopputulemaan, että ongelma johtuu siitä, kun yrittää muokata olemassa olevaa tietokantaa. Valitsin vaihtoehdon 1, jossa annetaan oletusarvo jo olemassa oleville juomille. Arvoksi annoin 1, eli pullon id:n. Sen jälkeen vielä annoin komennon `$ ./manage.py migrate` ja käynnistin serverin `$ ./manage.py runserver`. 
+
+![paadyttiin_ratkaisuun_1](https://user-images.githubusercontent.com/82024427/221410727-2ffb47bb-7783-4428-8697-67356200e205.png)
+
+
+![pullo_lisatty_juomalle](https://user-images.githubusercontent.com/82024427/221410650-d39d9f91-bd30-4f97-9b04-20dd44369c10.png)
+
 
 
 ### Lähteet
@@ -97,6 +114,8 @@ https://stackoverflow.com/questions/73586004/def-str-self-return-strself-name-in
 https://groups.google.com/g/django-users/c/Fp-UEAYEiAE 
 
 https://docs.djangoproject.com/en/4.1/topics/db/examples/many_to_one/
+
+https://stackoverflow.com/questions/26185687/you-are-trying-to-add-a-non-nullable-field-new-field-to-userprofile-without-a
 
 
 
