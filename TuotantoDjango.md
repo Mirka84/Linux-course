@@ -42,11 +42,23 @@ Sitten etenin ohjeen mukaan: `$ sudo apt-get -y install libapache2-mod-wsgi-py3`
 
 ![image](https://user-images.githubusercontent.com/82024427/222220446-3c6a110b-18a5-4fb5-a080-10b3a72a4ea4.png)
 
-Palasin ohjeet läpi, ja tässä vaiheessa en keksinyt, että mistä tuo forbidden voi johtua. Jatkoin eteenpäin artikkelin mukaan. Ajattelin, että tehdään asennukset ja tutkitaan sitten. Siirryin projektin kansioon, `$ cd publicwsgi/mirkahei/` ja avasin asetustiedoston, `$ micro mirkahei/settings.py`. Sinne muutettiin DEBUG=False ja lisättiin sallitut HOSTit. 
+Palasin ohjeet läpi, ja tässä vaiheessa en keksinyt, että mistä tuo forbidden voi johtua. Jatkoin eteenpäin artikkelin mukaan. Ajattelin, että tehdään asennukset ja tutkitaan sitten. Siirryin projektin kansioon, `$ cd mirkahei/` ja avasin asetustiedoston, `$ micro mirkahei/settings.py`. Sinne muutettiin DEBUG=False ja lisättiin sallitut HOSTit. Muutoksen jälkeen taas käynnistettiin demoni uudestaan `$ sudo systemctl restart apache2` ja tarkistataan, mitä palautuu. `$ curl -s localhost|grep title`, ohjeen mukaan piti palautua not found, mutta jälleen palautuu forbidden. 
 
 ![image](https://user-images.githubusercontent.com/82024427/222221696-f8527c4f-131c-49e3-b0ab-b8486164ff45.png)
 
 ![image](https://user-images.githubusercontent.com/82024427/222221555-212a820c-03ef-4951-ac7e-837085a93fe8.png)
+
+Nyt tutkin apachen error logeja. `$ sudo tail -F /var/log/apache2/error.log` ja sieltähän paljastui, että polkuun oli jäänyt kopioituna artikkelista teroco! Siirryin confitiedostoon `$ sudoedit /etc/apache2/sites-available/mirka.conf` ja korjasin polut. 
+
+![image](https://user-images.githubusercontent.com/82024427/222228052-27d559ea-4f11-4667-82e5-5efb1c92b8ec.png)
+
+Korjaus ei kuitenkaan edelleenkään auttanut. Käynnistin myös demonin uudestaan. Kello kävi, joten jatkoin vielä eteenpäin artikkelin ohjeiden mukaisesti. Siirryin projektikansioon, avasin asetustiedoston `$ micro mirkahei/settings.py` ja muokkasin sinne ohjeen mukaan
+import os
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/'). 
+
+![image](https://user-images.githubusercontent.com/82024427/222229939-6e4c9a0b-c9f9-49c2-a400-03456b05042e.png)
+
+![image](https://user-images.githubusercontent.com/82024427/222230598-d4186364-f2a8-4b74-bc87-449ee9b12433.png)
 
 
 
