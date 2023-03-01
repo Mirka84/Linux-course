@@ -30,6 +30,16 @@ Sitten kysyt채채n, mik채 pip: `$ which pip`. Kirjoitetaan tesktitiedostoon, mit�
 
 ![image](https://user-images.githubusercontent.com/82024427/222217392-780daefa-7258-4806-be11-0b44bc238b55.png)
 
+Testasin, ett채 onnistuiko asennus, `$ django-admin --version` ja vastauksena palautui versio 4.17. Loin uuden projektin `$ django-admin startproject mirkahei`. 
+
+![image](https://user-images.githubusercontent.com/82024427/222218299-73820c93-95f9-486e-9092-be0ab8b59304.png)
+
+Seuraavana oli polkujen m채채rittely conffitiedostoon. Avasin tiedoston editoriin `$ sudoedit /etc/apache2/sites-available/mirka.conf` ja kopioin artikkelista ohjeen mukaan tekstit ja muutin polkujen tiedot. (Edit 21.30, kopioinnin vaaroista varoitettiin, ja kompastuin siihen.. :)). 
+
+![ohjaustiedot_confitiedostoon](https://user-images.githubusercontent.com/82024427/222219281-d740362f-c796-4b57-9667-e9811ebaaf0e.png)
+
+
+
 
 
 
