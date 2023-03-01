@@ -38,8 +38,15 @@ Seuraavana oli polkujen määrittely conffitiedostoon. Avasin tiedoston editorii
 
 ![ohjaustiedot_confitiedostoon](https://user-images.githubusercontent.com/82024427/222219281-d740362f-c796-4b57-9667-e9811ebaaf0e.png)
 
+Sitten etenin ohjeen mukaan: `$ sudo apt-get -y install libapache2-mod-wsgi-py3` ja testaus `$ /sbin/apache2ctl configtest`. Syntax Ok, käynnistetään apache uudestaan, `$ sudo systemctl restart apache2` ja `$ curl -s localhost|grep title`. Mutta otsikko!!!! Forbidden? 
 
+![image](https://user-images.githubusercontent.com/82024427/222220446-3c6a110b-18a5-4fb5-a080-10b3a72a4ea4.png)
 
+Palasin ohjeet läpi, ja tässä vaiheessa en keksinyt, että mistä tuo forbidden voi johtua. Jatkoin eteenpäin artikkelin mukaan. Ajattelin, että tehdään asennukset ja tutkitaan sitten. Siirryin projektin kansioon, `$ cd publicwsgi/mirkahei/` ja avasin asetustiedoston, `$ micro mirkahei/settings.py`. Sinne muutettiin DEBUG=False ja lisättiin sallitut HOSTit. 
+
+![image](https://user-images.githubusercontent.com/82024427/222221696-f8527c4f-131c-49e3-b0ab-b8486164ff45.png)
+
+![image](https://user-images.githubusercontent.com/82024427/222221555-212a820c-03ef-4951-ac7e-837085a93fe8.png)
 
 
 
