@@ -19,6 +19,19 @@ Testasin muutoksen: `$ /sbin/apache2ctl configtest` ja sain herjan, minkä sai o
 
 ![image](https://user-images.githubusercontent.com/82024427/222215914-3ea6390c-9b81-4ea8-be06-94586a50f4f2.png)
 
+Kaikki siis vaikuttaa olevan ok! Eteenpäin. 
+
+Asensin virtuaalikehitysympäristön, `sudo apt-get -y install virtualenv`, siirryin kansioon `$ cd publicwsgi/` ja`$ virtualenv -p python3 --system-site-packages env` komennolla asennettiin pythonin paketteja, mutta näitä paketteja on myös mahdollista käyttää kehitysympäristön ulkopuolella. Aktivoin ympäristön, `$ source env/bin/activate`. Aktivointi onnistui ja nimen eteen ilmestyi sulkuihin env. 
+
+![image](https://user-images.githubusercontent.com/82024427/222216983-ef9f9999-9820-4f48-891e-5c1cacb160c4.png)
+
+Sitten kysytään, mikä pip: `$ which pip`. Kirjoitetaan tesktitiedostoon, mitä halutaan asentaa. `$ micro requirements.txt
+` tiedostoon kirjoitin django (ja tarkistin useasti, että menihän oikein). Sitten jälleen se pelottava komento: `$ pip install -r requirements.txt`. 
+
+![image](https://user-images.githubusercontent.com/82024427/222217392-780daefa-7258-4806-be11-0b44bc238b55.png)
+
+
+
 
 
 
