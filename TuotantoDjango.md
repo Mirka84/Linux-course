@@ -60,6 +60,9 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static/').
 
 ![image](https://user-images.githubusercontent.com/82024427/222230598-d4186364-f2a8-4b74-bc87-449ee9b12433.png)
 
+Viimeisin virheilmoitus, kello 22.09, joten tähän lopetin. Django antoi edelleen forbiddeniä. 
+
+![image](https://user-images.githubusercontent.com/82024427/222231451-dc419fe3-68f6-4cb0-b831-561c11f32c7a.png)
 
 
 
