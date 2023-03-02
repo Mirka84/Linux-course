@@ -64,7 +64,13 @@ Viimeisin virheilmoitus, kello 22.09, joten tähän lopetin. Django antoi edelle
 
 ![image](https://user-images.githubusercontent.com/82024427/222231451-dc419fe3-68f6-4cb0-b831-561c11f32c7a.png)
 
+### Ongelman selvittelyn jatkaminen.. 
 
+Selvittely jatkuu torstaina työpäivän jälkeen, joten katsotaan, mikä tilanne perjantaina. :) 
+
+### Lähteet
+
+https://terokarvinen.com/2022/deploy-django/
 
 
 
