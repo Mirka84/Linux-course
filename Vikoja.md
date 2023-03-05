@@ -78,6 +78,18 @@ Dokumentit, mitä muokattu, löytyvät komennolla `$ find -printf '%T+%p\n' | so
 
 Hieman toki ihmetyttää, että miksi tuossa listassa ei näy testiprojekti2.conf tiedostoa, koska sitä on muokattu tänään tätä tehtävää tehdessä. 
 
+Localhost/static on palauttanut käyttöliittymällä Not Found, 403. Tutkin taas Apachen error.logia. 
+
+![image](https://user-images.githubusercontent.com/82024427/222962743-e3268a87-a93f-47fd-a7ee-6f61810ce8bb.png)
+
+`[Sun Mar 05 15:09:39.702949 2023] [autoindex:error] [pid 3962:tid 139713524487936] [client 127.0.0.1:41792] AH01276: Cannot serve directory /home/mirkah/publicwsgi/testiprojekti2/static/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive`
+
+Ajattelin kokeilla tämän ongelman ratkaisua. Eli ongelma tässä on se, että /publicwsgi/testiprojeti2/static-alla ei ole index-tiedostoa. Tein tiedoston, `$ micro index.html`. Käyttöliittymä palautti tekstin. 
+
+![image](https://user-images.githubusercontent.com/82024427/222962926-25e7f4b4-00a4-4871-9f09-a64cad2f6158.png)
+
+Tehtävän teko loppui klo 15.20.
+
 
 
 ### Lähteet 
