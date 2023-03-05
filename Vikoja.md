@@ -24,16 +24,34 @@ Käyttöliittymä palauttaa 403, forbidden.
 
 ![image](https://user-images.githubusercontent.com/82024427/222956346-a2557ae3-4fac-4c55-a565-edcec4400b6e.png)
 
-Apachen error.log näyttää seuraavat tiedot: 
+Apachen error.log näyttää seuraavat tiedot (komento `sudo tail -F /var/log/apache2/error.log`): 
 
 ![image](https://user-images.githubusercontent.com/82024427/222956472-06c04d11-6e19-4839-bd35-ee2a7ac27910.png)
 
+Loki näyttää, että virhe olisi eri polun takana, eli WSGI-polun takana. Tuosta osaisi lähteä etsimään virhettä confi-tiedostosta, mutta ensimmäisenä etsisin virhettä eri polusta. 
 
 #### Settings.pysta puuttuu ALLOWED_hostista localhost
 
 Selain näyttää 404, bad request, kun päivitän selaimen localhost/admin. 
 
 ![image](https://user-images.githubusercontent.com/82024427/222956141-194de948-5f4f-4979-a2e7-0482db0e6d53.png)
+
+Lokitiedot: 
+
+![image](https://user-images.githubusercontent.com/82024427/222956749-62e17dca-ee5c-4967-980f-ef206323bd7d.png)
+
+Tein myös kirjoitusvirheen ALLOWED_Hosts, localhos. 
+
+Käyttöliittymä palauttaa 404, bad requestin. 
+
+![image](https://user-images.githubusercontent.com/82024427/222957173-76f9eb54-def8-43e6-8c52-ada6fec54a39.png)
+
+Ja Apachen error.log 
+
+![image](https://user-images.githubusercontent.com/82024427/222957223-c2683176-419c-4641-b36d-34b177aeb9d0.png)
+
+Error login merkinnät valitettavasti ovat melko hankalatulkintaisia. 
+
 
 
 
