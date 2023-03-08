@@ -1,6 +1,6 @@
 ## Hello World kolmella kielellä
 
-Aloitin tehtävän teon ke klo 17.15. 
+Aloitin tehtävän teon ke 8.3. klo 17.15. 
 
 Ensimmäisenä loin koti-tiedostooni kansion, helloworld, `$ mkdir helloworld` ja siirryin tuohon kansioon `$ cd helloworld`. Kansiossa loin tiedoston 
 helloworld.py, `$ micro helloworld.py`. 
