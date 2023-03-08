@@ -41,4 +41,9 @@ Korjasin virheen ja tarkistin uudelleen, ja edelleen näytti yhtä virhettä luo
 
 Lopetin tehtävän teon klo 18.10. 
 
+### Lähteet
+
+https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/
+
+https://phoenixnap.com/kb/how-to-install-java-ubuntu
 
