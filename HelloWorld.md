@@ -39,6 +39,6 @@ Korjasin virheen ja tarkistin uudelleen, ja edelleen näytti yhtä virhettä luo
 
 ![image](https://user-images.githubusercontent.com/82024427/223766523-627cf2dd-8c86-46d3-bcff-685fce327bb4.png)
 
-
+Lopetin tehtävän teon klo 18.10. 
 
 
