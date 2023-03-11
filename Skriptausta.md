@@ -15,5 +15,11 @@ Nyt komento toimii ainoastaan kansiossa skriptausta, joten annan komennon `$ sud
 
 ![image](https://user-images.githubusercontent.com/82024427/224475713-ac0518c8-330c-45a0-84cd-21d7f854fc72.png)
 
+Ja sitten halusin testata seku vain, että saanko Lehmän sanomaan jotain pelkällä yhdellä komennolla. 
+
+Asensin cowsayn, (komennot `$ sudo apt-get update` ja `$ sudo apt-get install cowsay`. Siirryin edellisellä tunnilla tehtyyn kansioon skriptausta ja muutin tekstin pelkäksi komennoksi: cowsay Heippa. 
+
+![image](https://user-images.githubusercontent.com/82024427/224475907-3aff4c44-eb5e-4e75-94ad-feef0b4b089b.png)
+
 
 
