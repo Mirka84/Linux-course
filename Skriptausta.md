@@ -37,12 +37,16 @@ Ja vielä korotin komennon toimimaan muissakin työhakemistoissa komennolla `$ s
 
 ![image](https://user-images.githubusercontent.com/82024427/224477194-969e1a68-218f-45fa-83ab-22a758296d8e.png)
 
+### c) Uusi komento, joka tekee jotain monelle tiedostollegr
+
 
 ### Lähteet
 
 https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programming-languages-on-ubuntu-18-04/
 
 https://terokarvinen.com/2007/shell-scripting-4/
+
+https://www.digitalocean.com/community/tutorials/workflow-loop-through-files-in-a-directory
 
 
 
