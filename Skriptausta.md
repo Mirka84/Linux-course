@@ -27,11 +27,16 @@ Skriptausta-tiedostolla oli jo annettuna x-oikeudet, sekä oikeudet oli annettu 
 
 ### b) Uusi komento Pythonilla
 
-Loin skriptausta-kansioon uuden tiedoston `$ micro pythonilla`. Sinne kirjoitin shebangiin #! /bin/python3 (jotta luetaan tiedostoa python3:lla) ja tekstiin print("Terveppä terve!"). Oikeudet tarkistin komennolla `$ ls -l`. Pythonilla-tiedostosta puuttui taas x-oikeus, joten sen lisäsin komennolla `$ chmod ugo+x pythonilla`. Ja vielä korotin komennon toimimaan muissakin työhakemistoissa komennolla `$ sudo cp pythonilla /usr/local/bin/`. Sitten testailut skriptailua-kansiossa, omassa mirkah-työhakemistossa ja vielä home-työhakemistossa. Kaikkialla tulostaa halutun tekstin. 
+Loin skriptausta-kansioon uuden tiedoston `$ micro pythonilla`. Sinne kirjoitin shebangiin #! /bin/python3 (jotta luetaan tiedostoa python3:lla) ja tekstiin print("Terveppä terve!"). Oikeudet tarkistin komennolla `$ ls -l`. Pythonilla-tiedostosta puuttui taas x-oikeus, joten sen lisäsin komennolla `$ chmod ugo+x pythonilla`. 
 
 ![image](https://user-images.githubusercontent.com/82024427/224476843-4eadbb3b-6aa6-4380-8617-04a79c349a5e.png)
 
 ![image](https://user-images.githubusercontent.com/82024427/224476875-7e8254f9-553f-496b-906f-8683ef4e0a6c.png)
+
+Ja vielä korotin komennon toimimaan muissakin työhakemistoissa komennolla `$ sudo cp pythonilla /usr/local/bin/`. Sitten testailut skriptailua-kansiossa, omassa mirkah-työhakemistossa ja vielä home-työhakemistossa. Kaikkialla tulostaa halutun tekstin. 
+
+![image](https://user-images.githubusercontent.com/82024427/224477194-969e1a68-218f-45fa-83ab-22a758296d8e.png)
+
 
 ### Lähteet
 
