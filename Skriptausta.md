@@ -11,8 +11,9 @@ Ensimmäisenä tein kansion `$ mkdir skriptausta` ja siirryin kansioon `$ cd skr
 
 ![image](https://user-images.githubusercontent.com/82024427/224475215-28baa83e-a79d-4bfd-a142-3c1f643463c3.png)
 
-Nyt komento toimii ainoastaan kansiossa skriptausta, joten annan komennon `$ sudo cd testataan /usr/local/bin/`. Tämän jälkeen komennon testataan pitäisi tulostaa haluttu teksti riippumatta siitä, missä työkansiossa ollaan. 
+Nyt komento toimii ainoastaan kansiossa skriptausta, joten annan komennon `$ sudo cd testataan /usr/local/bin/`. Tämän jälkeen komennon testataan pitäisi tulostaa haluttu teksti riippumatta siitä, missä työkansiossa ollaan. Testaan siirtymällä pois skriptausta-kansiosta ja komento testataan tulostaa halutun tekstin myös toisessa kansiossa. Toimii siis! 
 
-![image](https://user-images.githubusercontent.com/82024427/224475615-5538fdae-3eba-4785-896b-a3cbf972e401.png)
+![image](https://user-images.githubusercontent.com/82024427/224475713-ac0518c8-330c-45a0-84cd-21d7f854fc72.png)
+
 
 
