@@ -21,5 +21,10 @@ Asensin cowsayn, (komennot `$ sudo apt-get update` ja `$ sudo apt-get install co
 
 ![image](https://user-images.githubusercontent.com/82024427/224475907-3aff4c44-eb5e-4e75-94ad-feef0b4b089b.png)
 
+Skriptausta-tiedostolla oli jo annettuna x-oikeudet, sekä oikeudet oli annettu kaikille käyttäjille. Sitten testaan, ensin skiptausta-kansiossa komennolla skriptausta, ja toimii! Siirryn vielä pois kansiosta ja testaan uudelleen skriptausta-komentoa, ja lehmä sanoo Heippa. Toimii siis! 
+
+![image](https://user-images.githubusercontent.com/82024427/224476077-2e850d0b-4f56-4d00-9578-82c006a36b00.png)
+
+
 
 
