@@ -50,6 +50,11 @@ done`
 
 Tarkoitus oli, että tämä komento listaisi kaikki kansiossa olevat tiedostot..Testasin lohoppaus-komentoa, ei toiminut, joten lisäsin jälleen x-oikeuden `$ chmod ugo+x looppaus`. Tämän jälkeen ./looppaus tulosti terminaaliin skriptausta, mikä ei ollut tarkoitus. Avasin tiedoston `$ micro looppaus` ja muutin skriptausta tilalle mirkah. Tämä muutos ei tuottanut haluttua lopputulemaa. Lopulta vaihdoin * -merkin tilalle. Ja komento alkoi toimia. 
 
+`#! /bin/bash
+for FILE in *; 
+do echo $FILE; 
+done`
+
 ![image](https://user-images.githubusercontent.com/82024427/224479041-4709e8dd-8cff-4109-859d-f034439c2dd7.png)
 
 Korotin komennon käytettäväksi missä vaan: `$ sudo cp looppau /usr/local/bin/` ja testasin etc- ja mirkah-työhakemistoissa. Komento looppaus listasi hakemistoissa olevat tiedostot. 
