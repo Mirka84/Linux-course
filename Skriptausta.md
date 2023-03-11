@@ -37,7 +37,30 @@ Ja vielä korotin komennon toimimaan muissakin työhakemistoissa komennolla `$ s
 
 ![image](https://user-images.githubusercontent.com/82024427/224477194-969e1a68-218f-45fa-83ab-22a758296d8e.png)
 
-### c) Uusi komento, joka tekee jotain monelle tiedostollegr
+### c) Uusi komento, joka tekee jotain monelle tiedostolle
+
+Loin skriptausta-kansioon tiedoston looppaus. Apuja hain for-loopin käyttöön täältä: https://www.digitalocean.com/community/tutorials/workflow-loop-through-files-in-a-directory ja täältä https://www.cyberciti.biz/faq/bash-for-loop/. 
+
+Looppaus-tiedostoon kirjoitin ensin
+
+`#! /bin/bash
+for FILE in skriptausta; 
+do echo $FILE; 
+done`
+
+Tarkoitus oli, että tämä komento listaisi kaikki kansiossa olevat tiedostot..Testasin lohoppaus-komentoa, ei toiminut, joten lisäsin jälleen x-oikeuden `$ chmod ugo+x looppaus`. Tämän jälkeen ./looppaus tulosti terminaaliin skriptausta, mikä ei ollut tarkoitus. Avasin tiedoston `$ micro looppaus` ja muutin skriptausta tilalle mirkah. Tämä muutos ei tuottanut haluttua lopputulemaa. Lopulta vaihdoin * -merkin tilalle. Ja komento alkoi toimia. 
+
+![image](https://user-images.githubusercontent.com/82024427/224479041-4709e8dd-8cff-4109-859d-f034439c2dd7.png)
+
+Korotin komennon käytettäväksi missä vaan: `$ sudo cp looppau /usr/local/bin/` ja testasin etc- ja mirkah-työhakemistoissa. Komento looppaus listasi hakemistoissa olevat tiedostot. 
+
+![image](https://user-images.githubusercontent.com/82024427/224479097-8121a458-3b42-4585-8401-ce78ccbeed28.png)
+
+![image](https://user-images.githubusercontent.com/82024427/224479129-c1292a90-0fc8-4a73-a1f6-91c25966524a.png)
+
+Testasin myös komennon yhdistämistä grep-komentoon. 
+
+
 
 
 ### Lähteet
@@ -47,6 +70,8 @@ https://terokarvinen.com/2018/hello-python3-bash-c-c-go-lua-ruby-java-programmin
 https://terokarvinen.com/2007/shell-scripting-4/
 
 https://www.digitalocean.com/community/tutorials/workflow-loop-through-files-in-a-directory
+
+https://www.cyberciti.biz/faq/bash-for-loop/
 
 
 
