@@ -65,7 +65,9 @@ Korotin komennon käytettäväksi missä vaan: `$ sudo cp looppau /usr/local/bin
 
 Testasin myös komennon yhdistämistä grep-komentoon. Komento `$ looppaus | grep 'public'`toimi myös:
 
-![image](https://user-images.githubusercontent.com/82024427/224479207-a7b61aba-d785-481d-b657-a6be1e0a4bc9.png)
+![image](https://user-images.githubusercontent.com/82024427/224479207-a7b61aba-d785-481d-b657-a6be1e0a4bc9.png. 
+
+Lopetin tehtävien teon klo 12.30. Kaikkine säätöineen ja junan netin kanssa menihän sitä taas aikaa. 
 
 
 ### Lähteet
