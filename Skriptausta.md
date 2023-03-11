@@ -56,11 +56,11 @@ Korotin komennon käytettäväksi missä vaan: `$ sudo cp looppau /usr/local/bin
 
 ![image](https://user-images.githubusercontent.com/82024427/224479097-8121a458-3b42-4585-8401-ce78ccbeed28.png)
 
-![image](https://user-images.githubusercontent.com/82024427/224479129-c1292a90-0fc8-4a73-a1f6-91c25966524a.png)
+![image](https://user-images.githubusercontent.com/82024427/224479177-b8958693-d9a9-4bf7-bef9-beb67e6595b0.png)
 
-Testasin myös komennon yhdistämistä grep-komentoon. 
+Testasin myös komennon yhdistämistä grep-komentoon. Komento `$ looppaus | grep 'public'`toimi myös:
 
-
+![image](https://user-images.githubusercontent.com/82024427/224479207-a7b61aba-d785-481d-b657-a6be1e0a4bc9.png)
 
 
 ### Lähteet
