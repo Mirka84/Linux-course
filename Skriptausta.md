@@ -1,6 +1,6 @@
 ## Skriptausta
 
-### Uusi komento Bashilla
+### a) Uusi komento Bashilla
 
 Aloitin tehtävien teon la klo 10. 
 
@@ -24,6 +24,15 @@ Asensin cowsayn, (komennot `$ sudo apt-get update` ja `$ sudo apt-get install co
 Skriptausta-tiedostolla oli jo annettuna x-oikeudet, sekä oikeudet oli annettu kaikille käyttäjille. Sitten testaan, ensin skiptausta-kansiossa komennolla skriptausta, ja toimii! Siirryn vielä pois kansiosta ja testaan uudelleen skriptausta-komentoa, ja lehmä sanoo Heippa. Toimii siis! 
 
 ![image](https://user-images.githubusercontent.com/82024427/224476077-2e850d0b-4f56-4d00-9578-82c006a36b00.png)
+
+### b) Uusi komento Pythonilla
+
+Loin skriptausta-kansioon uuden tiedoston `$ micro pythonilla`. 
+
+![image](https://user-images.githubusercontent.com/82024427/224476843-4eadbb3b-6aa6-4380-8617-04a79c349a5e.png)
+
+![image](https://user-images.githubusercontent.com/82024427/224476875-7e8254f9-553f-496b-906f-8683ef4e0a6c.png)
+
 
 
 
