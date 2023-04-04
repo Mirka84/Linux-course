@@ -14,6 +14,8 @@ Komento hey toimii käyttäjällä mirka. Komento näyttää IP-osoitteen ja rei
 
 ### SSH-yhteys
 
+SSH-yhteyden muodostus onnistui, käyttäjä mirkah, ja localhostiin, kirjautuminen salasanalla.
+
 ![image](https://user-images.githubusercontent.com/82024427/229864299-b6e26eb1-2559-493d-8ae8-a105dfa0f9ac.png)
 
 ### Django-kehitysympäristö
