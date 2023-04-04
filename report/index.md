@@ -1,3 +1,11 @@
+### Mikä toimi ja mikä ei
+
+Skriptauksessa hey-komento onnistui ja toimii kaikilla käyttäjillä. Samaten Djangon kehitysympäristön pystytys oli onnistunut. Apachen asennus sekä käyttäjän kotisivut onnistuivat. 
+
+SSH kirjautuminen avaimella ei onnistunut, ainoastaan salasanalla. Päivitin portin 1337 ssh_config-tiedostoon, ja sallin palomuurin, `sudo ufw allow 1337/tcp`, mutta en ole varma, onnistuiko tämä. 
+
+En osannut liittää näytönkuvia tehtävässä tekemääni dokumenttiin. Dokumentin käyttöoikeudet onnistuivat, mutta sen tallentaminen host-koneelle ei myöskään onnistunut. 
+
 ### Dokumentti ja sen käyttöoikeudet
 
 ![image](https://user-images.githubusercontent.com/82024427/229861383-2666f30d-c3e2-4aed-b495-0627882b588f.png)
