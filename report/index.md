@@ -6,8 +6,6 @@ Komento hey toimii käyttäjällä mirka. Komento näyttää IP-osoitteen ja rei
 
 ### Käyttäjän Erkki kotisivut
 
-salasana: M4disonSquare!2023
-
 ![image](https://user-images.githubusercontent.com/82024427/229836994-58f94866-c038-4846-b024-48306486708e.png)
 
 
