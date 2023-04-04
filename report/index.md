@@ -1,3 +1,7 @@
+### Dokumentti ja sen käyttöoikeudet
+
+![image](https://user-images.githubusercontent.com/82024427/229861383-2666f30d-c3e2-4aed-b495-0627882b588f.png)
+
 ### Kaikille käyttäjille hey -komento
 
 Komento hey toimii käyttäjällä mirka. Komento näyttää IP-osoitteen ja reititintaulun. 
